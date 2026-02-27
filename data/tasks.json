@@ -6,16 +6,51 @@
       "description": "¡Bienvenido a Mission Control! Sigue estos pasos para completar tu configuración. Trabaja en cada subtarea en orden.\n\n**Consejo:** Haz clic en una subtarea para ver instrucciones detalladas. Márcate cuando termines.",
       "status": "permanent",
       "project": "guides",
-      "tags": ["guia", "setup"],
+      "tags": [
+        "guia",
+        "setup"
+      ],
       "subtasks": [
-        { "id": "sub_001", "title": "1. Habilitar GitHub Pages: Settings → Pages → Branch: main → Save", "done": true },
-        { "id": "sub_002", "title": "2. Crear Token de GitHub: github.com/settings/tokens → Generate (classic) → Scope: repo", "done": true },
-        { "id": "sub_003", "title": "3. Conectar Dashboard: Abre tu URL de GitHub Pages → Clic 'Conectar GitHub' → Pega el token", "done": true },
-        { "id": "sub_004", "title": "4. Instalar Tailscale: brew install tailscale && tailscale up", "done": true },
-        { "id": "sub_005", "title": "5. Habilitar Funnel: tailscale funnel 18789 → Copia tu URL", "done": true },
-        { "id": "sub_006", "title": "6. Generar Webhook Token: openssl rand -hex 32 → Guárdalo", "done": false },
-        { "id": "sub_007", "title": "7. Añadir GitHub Webhook: Settings → Webhooks → Add → URL: https://TU-URL-TAILSCALE/hooks/github?token=TU-TOKEN", "done": false },
-        { "id": "sub_008", "title": "8. Prueba: Crea una tarea, muévela a En Progreso, verifica que la IA reciba la notificación", "done": false }
+        {
+          "id": "sub_001",
+          "title": "1. Habilitar GitHub Pages: Settings → Pages → Branch: main → Save",
+          "done": true
+        },
+        {
+          "id": "sub_002",
+          "title": "2. Crear Token de GitHub: github.com/settings/tokens → Generate (classic) → Scope: repo",
+          "done": true
+        },
+        {
+          "id": "sub_003",
+          "title": "3. Conectar Dashboard: Abre tu URL de GitHub Pages → Clic 'Conectar GitHub' → Pega el token",
+          "done": true
+        },
+        {
+          "id": "sub_004",
+          "title": "4. Instalar Tailscale: brew install tailscale && tailscale up",
+          "done": true
+        },
+        {
+          "id": "sub_005",
+          "title": "5. Habilitar Funnel: tailscale funnel 18789 → Copia tu URL",
+          "done": true
+        },
+        {
+          "id": "sub_006",
+          "title": "6. Generar Webhook Token: openssl rand -hex 32 → Guárdalo",
+          "done": false
+        },
+        {
+          "id": "sub_007",
+          "title": "7. Añadir GitHub Webhook: Settings → Webhooks → Add → URL: https://TU-URL-TAILSCALE/hooks/github?token=TU-TOKEN",
+          "done": false
+        },
+        {
+          "id": "sub_008",
+          "title": "8. Prueba: Crea una tarea, muévela a En Progreso, verifica que la IA reciba la notificación",
+          "done": false
+        }
       ],
       "priority": "high",
       "comments": [
@@ -33,22 +68,81 @@
       "description": "Aprende a usar Mission Control de manera efectiva. ¡Tanto tú como la IA pueden gestionar tareas!\n\n**Dos formas de gestionar tareas:**\n• 👤 **Tú** — Usas la interfaz web (arrastrar y soltar, botones, formularios)\n• 🤖 **La IA** — Usa scripts o edita tasks.json directamente",
       "status": "permanent",
       "project": "guides",
-      "tags": ["guia", "ayuda"],
+      "tags": [
+        "guia",
+        "ayuda"
+      ],
       "subtasks": [
-        { "id": "sub_001", "title": "— EL TABLERO —", "done": false },
-        { "id": "sub_002", "title": "Columnas: Permanente → Pendientes → En Progreso → Revisión → Terminado", "done": false },
-        { "id": "sub_003", "title": "Arrastrar y Soltar: Mueve las tareas entre columnas para cambiar su estado", "done": false },
-        { "id": "sub_004", "title": "Haz clic en la tarjeta de la tarea para abrir detalles y editar", "done": false },
-        { "id": "sub_005", "title": "— CREANDO TAREAS —", "done": false },
-        { "id": "sub_006", "title": "👤 Tú: Haz clic en el botón '+' en la cabecera de cualquier columna", "done": false },
-        { "id": "sub_007", "title": "🤖 IA: Edita data/tasks.json o usa la terminal", "done": false },
-        { "id": "sub_008", "title": "— DETALLES DE LA TAREA —", "done": false },
-        { "id": "sub_009", "title": "Título: Nombre corto y claro de la tarea", "done": false },
-        { "id": "sub_010", "title": "Descripción: Instrucciones detalladas (soporta Markdown)", "done": false },
-        { "id": "sub_011", "title": "Subtareas: Divide el trabajo en pasos más pequeños", "done": false },
-        { "id": "sub_012", "title": "Comentarios: Añade notas, retroalimentación o avances", "done": false },
-        { "id": "sub_013", "title": "Prioridad: Alta (🔴) / Media (🟡) / Baja (🟢)", "done": false },
-        { "id": "sub_014", "title": "Proyecto: Organiza tareas por categoría", "done": false }
+        {
+          "id": "sub_001",
+          "title": "— EL TABLERO —",
+          "done": false
+        },
+        {
+          "id": "sub_002",
+          "title": "Columnas: Permanente → Pendientes → En Progreso → Revisión → Terminado",
+          "done": false
+        },
+        {
+          "id": "sub_003",
+          "title": "Arrastrar y Soltar: Mueve las tareas entre columnas para cambiar su estado",
+          "done": false
+        },
+        {
+          "id": "sub_004",
+          "title": "Haz clic en la tarjeta de la tarea para abrir detalles y editar",
+          "done": false
+        },
+        {
+          "id": "sub_005",
+          "title": "— CREANDO TAREAS —",
+          "done": false
+        },
+        {
+          "id": "sub_006",
+          "title": "👤 Tú: Haz clic en el botón '+' en la cabecera de cualquier columna",
+          "done": false
+        },
+        {
+          "id": "sub_007",
+          "title": "🤖 IA: Edita data/tasks.json o usa la terminal",
+          "done": false
+        },
+        {
+          "id": "sub_008",
+          "title": "— DETALLES DE LA TAREA —",
+          "done": false
+        },
+        {
+          "id": "sub_009",
+          "title": "Título: Nombre corto y claro de la tarea",
+          "done": false
+        },
+        {
+          "id": "sub_010",
+          "title": "Descripción: Instrucciones detalladas (soporta Markdown)",
+          "done": false
+        },
+        {
+          "id": "sub_011",
+          "title": "Subtareas: Divide el trabajo en pasos más pequeños",
+          "done": false
+        },
+        {
+          "id": "sub_012",
+          "title": "Comentarios: Añade notas, retroalimentación o avances",
+          "done": false
+        },
+        {
+          "id": "sub_013",
+          "title": "Prioridad: Alta (🔴) / Media (🟡) / Baja (🟢)",
+          "done": false
+        },
+        {
+          "id": "sub_014",
+          "title": "Proyecto: Organiza tareas por categoría",
+          "done": false
+        }
       ],
       "priority": "medium",
       "comments": [
@@ -66,11 +160,25 @@
       "description": "Este es un ejemplo de cómo se ve una tarea real. Siéntete libre de editarla o borrarla.\n\n**Las buenas descripciones incluyen:**\n- Qué se necesita hacer\n- Por qué es importante\n- Cualquier requisito o limitación\n- Enlaces a recursos relevantes",
       "status": "backlog",
       "project": "default",
-      "tags": ["ejemplo"],
+      "tags": [
+        "ejemplo"
+      ],
       "subtasks": [
-        { "id": "sub_001", "title": "Primer paso de la tarea", "done": false },
-        { "id": "sub_002", "title": "Segundo paso", "done": false },
-        { "id": "sub_003", "title": "Paso final", "done": false }
+        {
+          "id": "sub_001",
+          "title": "Primer paso de la tarea",
+          "done": false
+        },
+        {
+          "id": "sub_002",
+          "title": "Segundo paso",
+          "done": false
+        },
+        {
+          "id": "sub_003",
+          "title": "Paso final",
+          "done": false
+        }
       ],
       "priority": "low",
       "comments": [],
@@ -78,12 +186,32 @@
     }
   ],
   "projects": [
-    { "id": "guides", "name": "Guías", "color": "#10b981", "icon": "📚" },
-    { "id": "default", "name": "Mi Proyecto", "color": "#3b82f6", "icon": "📁" }
+    {
+      "id": "guides",
+      "name": "Guías",
+      "color": "#10b981",
+      "icon": "📚"
+    },
+    {
+      "id": "default",
+      "name": "Mi Proyecto",
+      "color": "#3b82f6",
+      "icon": "📁"
+    }
   ],
   "activities": [
-    { "type": "created", "actor": "Mission Control", "task": "Guía de Inicio", "time": "justo ahora" },
-    { "type": "created", "actor": "Mission Control", "task": "Guía de Usuario", "time": "justo ahora" }
+    {
+      "type": "created",
+      "actor": "Mission Control",
+      "task": "Guía de Inicio",
+      "time": "justo ahora"
+    },
+    {
+      "type": "created",
+      "actor": "Mission Control",
+      "task": "Guía de Usuario",
+      "time": "justo ahora"
+    }
   ],
-  "lastUpdated": "2026-01-01T00:00:00Z"
+  "lastUpdated": "2026-02-27T17:42:33.999Z"
 }
