@@ -2431,7 +2431,7 @@
                     Break down tasks into smaller steps. Click on a subtask to edit it inline.
                 </p>
 
-                <h3 style="margin: 1.5rem 0 0.5rem;">Comments</h3>
+                <h3 style="margin: 1.5rem 0 0.5rem;">Comentarios</h3>
                 <p style="color: var(--text-secondary); line-height: 1.6;">
                     Add comments to tasks for context or feedback. Comments on <strong>Revisión</strong> tasks trigger notifications to MoltBot.
                 </p>
@@ -2582,7 +2582,7 @@
                 </div>
             </div>
             <div class="modal-footer">
-                <button class="btn btn-secondary" onclick="hideAuthModal()">Cancel</button>
+                <button class="btn btn-secondary" onclick="hideAuthModal()">Cancelar</button>
                 <button class="btn btn-primary" id="btn-save-token" onclick="validateAndSaveToken()" disabled>Connect</button>
             </div>
         </div>
@@ -2596,7 +2596,7 @@
                 <button class="modal-close" onclick="hideAjustesModal()">&times;</button>
             </div>
             <div class="modal-body">
-                <h3 style="margin-bottom: 12px; font-size: 1rem;">Projects</h3>
+                <h3 style="margin-bottom: 12px; font-size: 1rem;">Proyectos</h3>
                 <div id="projects-list" class="projects-list"></div>
 
                 <div class="add-project-form" style="margin-top: 16px; padding-top: 16px; border-top: 1px solid var(--border-color);">
@@ -2628,7 +2628,7 @@
                         <div style="display: flex; gap: 8px; align-items: center;">
                             <label style="font-size: 0.8rem; color: var(--text-secondary);">Farbe:</label>
                             <input type="color" id="new-project-color" value="#6366f1" style="width: 50px; height: 32px; border: none; cursor: pointer; border-radius: 4px;">
-                            <button class="btn btn-secondary" id="btn-cancel-project" onclick="cancelEditProject()" style="display: none;">Cancel</button>
+                            <button class="btn btn-secondary" id="btn-cancel-project" onclick="cancelEditProject()" style="display: none;">Cancelar</button>
                             <button class="btn btn-primary" id="btn-save-project" onclick="saveProject()" style="flex: 1;">+ Add Project</button>
                         </div>
                     </div>
@@ -2657,7 +2657,7 @@
                 </div>
             </div>
             <div class="modal-footer">
-                <button class="btn btn-secondary" onclick="hideCommitModal()">Cancel</button>
+                <button class="btn btn-secondary" onclick="hideCommitModal()">Cancelar</button>
                 <button class="btn btn-primary" id="btn-commit" onclick="commitChanges()">
                     <span id="commit-btn-text">Commit & Push</span>
                     <div class="spinner" id="commit-spinner" style="display: none;"></div>
@@ -2670,7 +2670,7 @@
     <div class="modal-overlay" id="task-modal" onclick="if(event.target===this)hideTaskModal()">
         <div class="modal" style="max-width: 600px;">
             <div class="modal-header">
-                <h2 class="modal-title" id="task-modal-title">Edit Task</h2>
+                <h2 class="modal-title" id="task-modal-title">Editar Tarea</h2>
                 <button class="modal-close" onclick="hideTaskModal()">&times;</button>
             </div>
             <div class="modal-body">
@@ -2679,7 +2679,7 @@
                     <input type="text" class="form-input" id="task-title" placeholder="Task title">
                 </div>
                 <div class="form-group">
-                    <label class="form-label">Description</label>
+                    <label class="form-label">Descripción</label>
                     <textarea class="form-input" id="task-description" rows="3" placeholder="Task description" style="resize: vertical;"></textarea>
                 </div>
                 <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1rem;">
@@ -2695,16 +2695,16 @@
                         </select>
                     </div>
                     <div class="form-group">
-                        <label class="form-label">Priority</label>
+                        <label class="form-label">Prioridad</label>
                         <select class="form-input" id="task-priority">
-                            <option value="low">Low</option>
-                            <option value="medium">Medium</option>
-                            <option value="high">High</option>
+                            <option value="low">Baja</option>
+                            <option value="medium">Media</option>
+                            <option value="high">Alta</option>
                         </select>
                     </div>
                 </div>
                 <div class="form-group">
-                    <label class="form-label">Project</label>
+                    <label class="form-label">Proyecto</label>
                     <select class="form-input" id="task-project">
                         <!-- Populated dynamically from STATE.data.projects -->
                     </select>
@@ -2731,7 +2731,7 @@
 
                 <!-- Comments Section -->
                 <div class="form-group" id="comments-section">
-                    <label class="form-label">Comments</label>
+                    <label class="form-label">Comentarios</label>
                     <div class="comments-list" id="comments-list"></div>
                     <div class="comment-add">
                         <textarea class="form-input" id="new-comment-input" rows="2" placeholder="Add a comment..."></textarea>
@@ -2742,8 +2742,8 @@
             <div class="modal-footer">
                 <button class="btn btn-danger" id="btn-delete-task" onclick="deleteTask()" style="margin-right: auto;">Delete</button>
                 <button class="btn btn-secondary" id="btn-task-to-cron" onclick="openTaskToCronWizard(currentEditingTaskId)" title="Convert to recurring cron job">⏰ As Cron</button>
-                <button class="btn btn-secondary" onclick="hideTaskModal()">Cancel</button>
-                <button class="btn btn-primary" onclick="saveTask()">Save Task</button>
+                <button class="btn btn-secondary" onclick="hideTaskModal()">Cancelar</button>
+                <button class="btn btn-primary" onclick="saveTask()">Guardar Tarea</button>
             </div>
         </div>
     </div>
@@ -3029,11 +3029,11 @@
                 { id: "wellness", name: "Wellness", color: "#ec4899", icon: "🧘" }
             ],
             activities: [
-                { type: "completed", actor: "You", task: "Social media content calendar", time: "2 hours ago" },
-                { type: "moved", actor: "AI Assistant", task: "API documentation update", from: "in_progress", to: "review", time: "4 hours ago" },
-                { type: "created", actor: "You", task: "Plan weekend hiking trip", time: "yesterday" },
-                { type: "completed", actor: "You", task: "Fix login redirect bug", time: "2 days ago" },
-                { type: "moved", actor: "AI Assistant", task: "Implement dark mode", from: "backlog", to: "in_progress", time: "3 days ago" }
+                { type: "completed", actor: "You", task: "Social media content calendar", time: "2 horas atrás" },
+                { type: "moved", actor: "AI Assistant", task: "API documentation update", from: "in_progress", to: "review", time: "4 horas atrás" },
+                { type: "created", actor: "You", task: "Plan weekend hiking trip", time: "ayer" },
+                { type: "completed", actor: "You", task: "Fix login redirect bug", time: "2 días atrás" },
+                { type: "moved", actor: "AI Assistant", task: "Implement dark mode", from: "backlog", to: "in_progress", time: "3 días atrás" }
             ],
             lastUpdated: new Date().toISOString()
         };
@@ -3929,7 +3929,7 @@
                     task: task.title,
                     from: oldStatus,
                     to: newStatus,
-                    time: 'just now'
+                    time: 'justo ahora'
                 });
                 renderActivity();
             }
@@ -4103,7 +4103,7 @@
                 type: type,
                 actor: STATE.user?.login || 'User',
                 task: taskName,
-                time: 'just now'
+                time: 'justo ahora'
             });
             
             renderActivity();
@@ -4179,7 +4179,7 @@
         
         async function checkAndMoveOldArchivedTasks() {
             const now = new Date();
-            const cutoffDate = new Date(now.getTime() - (90 * 24 * 60 * 60 * 1000)); // 90 days ago
+            const cutoffDate = new Date(now.getTime() - (90 * 24 * 60 * 60 * 1000)); // 90 días atrás
             
             const oldArchivedTasks = STATE.data.tasks.filter(t => 
                 t.archived && 
@@ -4616,7 +4616,7 @@
             const container = document.getElementById('comments-list');
             const comments = task.comments || [];
             if (comments.length === 0) {
-                container.innerHTML = '<div style="color: var(--text-secondary); font-size: 0.875rem;">No comments yet</div>';
+                container.innerHTML = '<div style="color: var(--text-secondary); font-size: 0.875rem;">No hay comentarios aún</div>';
                 return;
             }
             container.innerHTML = comments.map((c, idx) => `
@@ -4703,10 +4703,10 @@
             const diffHour = Math.floor(diffMs / 3600000);
             const diffDay = Math.floor(diffMs / 86400000);
 
-            if (diffMin < 1) return 'just now';
+            if (diffMin < 1) return 'justo ahora';
             if (diffMin < 60) return diffMin + ' min ago';
-            if (diffHour < 24) return diffHour + ' hours ago';
-            return diffDay + ' days ago';
+            if (diffHour < 24) return diffHour + ' horas atrás';
+            return diffDay + ' días atrás';
         }
 
         function toggleSubtask(taskId, subtaskId) {
@@ -4813,7 +4813,7 @@
 
             // Clear subtasks and comments for new task
             document.getElementById('subtasks-list').innerHTML = '<div style="color: var(--text-secondary); font-size: 0.875rem;">No subtasks yet</div>';
-            document.getElementById('comments-list').innerHTML = '<div style="color: var(--text-secondary); font-size: 0.875rem;">No comments yet</div>';
+            document.getElementById('comments-list').innerHTML = '<div style="color: var(--text-secondary); font-size: 0.875rem;">No hay comentarios aún</div>';
 
             document.getElementById('task-modal').classList.add('visible');
         }
@@ -5283,7 +5283,7 @@
             renderTagChips();
             
             document.getElementById('subtasks-list').innerHTML = '<div style="color: var(--text-secondary); font-size: 0.875rem;">No subtasks yet</div>';
-            document.getElementById('comments-list').innerHTML = '<div style="color: var(--text-secondary); font-size: 0.875rem;">No comments yet</div>';
+            document.getElementById('comments-list').innerHTML = '<div style="color: var(--text-secondary); font-size: 0.875rem;">No hay comentarios aún</div>';
             
             document.getElementById('task-modal').classList.add('visible');
         }
@@ -5595,7 +5595,7 @@
                             <input type="text" class="form-input" id="scheduled-title" placeholder="Task title">
                         </div>
                         <div class="form-group">
-                            <label class="form-label">Description</label>
+                            <label class="form-label">Descripción</label>
                             <textarea class="form-input" id="scheduled-description" rows="2" placeholder="Task description"></textarea>
                         </div>
                         <div class="form-group">
@@ -5603,16 +5603,16 @@
                             <input type="datetime-local" class="form-input" id="scheduled-datetime" value="${dateStr}">
                         </div>
                         <div class="form-group">
-                            <label class="form-label">Priority</label>
+                            <label class="form-label">Prioridad</label>
                             <select class="form-input" id="scheduled-priority">
-                                <option value="low">Low</option>
-                                <option value="medium" selected>Medium</option>
-                                <option value="high">High</option>
+                                <option value="low">Baja</option>
+                                <option value="medium" selected>Media</option>
+                                <option value="high">Alta</option>
                             </select>
                         </div>
                     </div>
                     <div class="modal-footer">
-                        <button class="btn btn-secondary" onclick="closeScheduledTaskDialog()">Cancel</button>
+                        <button class="btn btn-secondary" onclick="closeScheduledTaskDialog()">Cancelar</button>
                         <button class="btn btn-primary" onclick="saveScheduledTask()">Schedule Task</button>
                     </div>
                 </div>
@@ -5823,7 +5823,7 @@
                     task: task.title,
                     from: oldStatus,
                     to: newStatus,
-                    time: 'just now'
+                    time: 'justo ahora'
                 });
                 renderActivity();
             }
@@ -6001,7 +6001,7 @@
                     </div>
                     <div class="modal-footer">
                         <button class="btn btn-secondary" style="margin-right: auto;" onclick="convertCronToTask('${cronId}')">📋 As Task</button>
-                        <button class="btn btn-secondary" onclick="closeCronEditor()">Cancel</button>
+                        <button class="btn btn-secondary" onclick="closeCronEditor()">Cancelar</button>
                         <button class="btn btn-primary" onclick="saveCronChanges('${cronId}')">Save Changes</button>
                     </div>
                 </div>
@@ -6331,7 +6331,7 @@
                     </div>
                     <div class="modal-footer">
                         <button class="btn btn-secondary" id="wizard-back" onclick="wizardBack()" style="display: none;">Back</button>
-                        <button class="btn btn-secondary" onclick="closeTaskToCronWizard()">Cancel</button>
+                        <button class="btn btn-secondary" onclick="closeTaskToCronWizard()">Cancelar</button>
                         <button class="btn btn-primary" id="wizard-next" onclick="wizardNext('${taskId}')" style="display: none;">Next</button>
                         <button class="btn btn-primary" id="wizard-create" onclick="createCronFromTask('${taskId}')" style="display: none;">Create Cron</button>
                     </div>
@@ -6557,8 +6557,8 @@
                         </div>
                     </div>
                     <div class="modal-footer">
-                        <button class="btn btn-secondary" onclick="closeCronToTaskDialog()">Cancel</button>
-                        <button class="btn btn-primary" onclick="executeConvertCronToTask('${cronId}')">Create Task</button>
+                        <button class="btn btn-secondary" onclick="closeCronToTaskDialog()">Cancelar</button>
+                        <button class="btn btn-primary" onclick="executeConvertCronToTask('${cronId}')">Crear Tarea</button>
                     </div>
                 </div>
             `;
