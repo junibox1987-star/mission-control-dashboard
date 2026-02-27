@@ -1203,7 +1203,7 @@
             color: var(--text-secondary);
         }
 
-        /* Task Actions (Review buttons) */
+        /* Task Actions (Revisión buttons) */
         .task-actions {
             display: flex;
             gap: 0.5rem;
@@ -2095,39 +2095,39 @@
     </style>
 </head>
 <body>
-    <!-- Login Required Screen (shown when not authenticated) -->
+    <!-- Inicio de Sesión Requerido Screen (shown when not authenticated) -->
     <div id="login-screen" class="login-screen">
         <div class="login-container">
             <div class="login-logo">🎯</div>
             <h1 class="login-title">Mission Control</h1>
-            <p class="login-subtitle">Task & Project Management Dashboard</p>
+            <p class="login-subtitle">Tablero de Gestión de Tareas y Proyectos</p>
 
             <div class="login-card">
-                <h2>🔐 Login Required</h2>
-                <p>Connect your GitHub account to access the dashboard.</p>
+                <h2>🔐 Inicio de Sesión Requerido</h2>
+                <p>Conecta tu cuenta de GitHub para acceder al tablero.</p>
 
                 <div class="login-steps">
                     <div class="login-step">
                         <span class="login-step-num">1</span>
                         <div>
-                            <strong>Create a Personal Access Token</strong>
+                            <strong>Crea un Token de Acceso Personal (PAT)</strong>
                             <a href="https://github.com/settings/tokens/new?scopes=repo&description=Mission%20Control%20Dashboard" target="_blank" class="login-link">
-                                Create token on GitHub →
+                                Crear token en GitHub →
                             </a>
                         </div>
                     </div>
                     <div class="login-step">
                         <span class="login-step-num">2</span>
                         <div>
-                            <strong>Select "repo" scope</strong>
-                            <span class="login-hint">Allows read/write access to repositories</span>
+                            <strong>Selecciona el permiso "repo"</strong>
+                            <span class="login-hint">Permite acceso de lectura/escritura a los repositorios</span>
                         </div>
                     </div>
                     <div class="login-step">
                         <span class="login-step-num">3</span>
                         <div>
-                            <strong>Paste your token below</strong>
-                            <span class="login-hint">Starts with "ghp_"</span>
+                            <strong>Pega tu token abajo</strong>
+                            <span class="login-hint">Comienza con "ghp_"</span>
                         </div>
                     </div>
                 </div>
@@ -2138,16 +2138,16 @@
                         <svg width="20" height="20" viewBox="0 0 16 16" fill="currentColor">
                             <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"/>
                         </svg>
-                        Connect with GitHub
+                        Conectar con GitHub
                     </button>
                     <div id="login-error" class="login-error"></div>
                     <div id="login-loading" class="login-loading">
                         <div class="spinner"></div>
-                        <span>Validating...</span>
+                        <span>Validando...</span>
                     </div>
                 </div>
 
-                <p class="login-security">🔒 Your token is stored locally and never sent anywhere except GitHub.</p>
+                <p class="login-security">🔒 Tu token se guarda localmente y nunca se envía a ningún lado excepto a GitHub.</p>
             </div>
         </div>
     </div>
@@ -2173,7 +2173,7 @@
                     <input type="text" 
                            id="search-input" 
                            class="search-input" 
-                           placeholder="Search tasks..." 
+                           placeholder="Buscar tareas..." 
                            oninput="handleSearch(this.value)"
                            onkeydown="if(event.key==='Escape'){clearSearch()}">
                     <svg class="search-icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
@@ -2205,7 +2205,7 @@
             <div class="user-profile" id="user-profile" style="display: none;">
                 <img class="user-avatar" id="user-avatar" src="" alt="Avatar">
                 <span class="user-name" id="user-name"></span>
-                <button class="btn-icon" onclick="showSettingsModal()" title="Settings">⚙️</button>
+                <button class="btn-icon" onclick="showAjustesModal()" title="Ajustes">⚙️</button>
                 <span class="user-logout" onclick="logout()">Logout</span>
             </div>
         </div>
@@ -2302,7 +2302,7 @@
             <div class="column">
                 <div class="column-header">
                     <div class="column-dot backlog"></div>
-                    <span class="column-title">Backlog</span>
+                    <span class="column-title">Pendientes</span>
                     <span class="column-count" id="count-backlog">0</span>
                     <span class="column-add" onclick="openNewTask('backlog')" title="Add new task">+</span>
                 </div>
@@ -2312,7 +2312,7 @@
             <div class="column">
                 <div class="column-header">
                     <div class="column-dot in-progress"></div>
-                    <span class="column-title">In Progress</span>
+                    <span class="column-title">En Progreso</span>
                     <span class="column-count" id="count-in_progress">0</span>
                     <span class="column-add" onclick="openNewTask('in_progress')" title="Add new task">+</span>
                 </div>
@@ -2322,7 +2322,7 @@
             <div class="column">
                 <div class="column-header">
                     <div class="column-dot review"></div>
-                    <span class="column-title">Review</span>
+                    <span class="column-title">Revisión</span>
                     <span class="column-count" id="count-review">0</span>
                     <span class="column-add" onclick="openNewTask('review')" title="Add new task">+</span>
                 </div>
@@ -2332,10 +2332,10 @@
             <div class="column">
                 <div class="column-header">
                     <div class="column-dot done"></div>
-                    <span class="column-title">Done</span>
+                    <span class="column-title">Terminado</span>
                     <span class="column-count" id="count-done">0</span>
                     <button class="archive-all-btn" onclick="showArchiveView()" title="View archived tasks" style="background: transparent;">📂 View</button>
-                    <button class="archive-all-btn" onclick="archiveAllDone()" title="Archive all done tasks">📦 Archive All</button>
+                    <button class="archive-all-btn" onclick="archiveAllTerminado()" title="Archive all done tasks">📦 Archive All</button>
                 </div>
                 <div class="column-tasks" id="tasks-done" ondragover="handleDragOver(event)" ondragleave="handleDragLeave(event)" ondrop="handleDrop(event, 'done')"></div>
             </div>
@@ -2379,7 +2379,7 @@
                 <ol style="color: var(--text-secondary); line-height: 1.8; margin-left: 1.5rem;">
                     <li><strong>Fork</strong> this repository to your GitHub account</li>
                     <li><strong>Copy dashboard files</strong> to your workspace: <code>index.html</code>, <code>data/</code>, <code>canvas/</code>, <code>scripts/</code>, <code>.github/</code></li>
-                    <li>Enable <strong>GitHub Pages</strong> in your repo settings (Settings → Pages → Branch: main)</li>
+                    <li>Enable <strong>GitHub Pages</strong> in your repo settings (Ajustes → Pages → Branch: main)</li>
                     <li>Visit <code>https://[username].github.io/mission-control/</code></li>
                 </ol>
 
@@ -2388,7 +2388,7 @@
                     Click <strong>"Connect GitHub"</strong> in the top right corner. You'll need a GitHub Personal Access Token with <code>repo</code> permissions.
                 </p>
                 <ol style="color: var(--text-secondary); line-height: 1.8; margin-left: 1.5rem;">
-                    <li>Go to <a href="https://github.com/settings/tokens" target="_blank" style="color: var(--accent);">GitHub Settings → Tokens</a></li>
+                    <li>Go to <a href="https://github.com/settings/tokens" target="_blank" style="color: var(--accent);">GitHub Ajustes → Tokens</a></li>
                     <li>Click "Generate new token (classic)"</li>
                     <li>Select scope: <code>repo</code> (Full control of private repositories)</li>
                     <li>Copy the token and paste it in Mission Control</li>
@@ -2400,10 +2400,10 @@
                 </p>
                 <ul style="color: var(--text-secondary); line-height: 1.8; margin-left: 1.5rem;">
                     <li><strong>🔄 Permanent</strong> - Repeating tasks (daily, weekly checks)</li>
-                    <li><strong>📋 Backlog</strong> - Tasks waiting to be started</li>
-                    <li><strong>🚀 In Progress</strong> - Currently being worked on</li>
-                    <li><strong>👀 Review</strong> - Done, awaiting approval</li>
-                    <li><strong>✅ Done</strong> - Completed tasks</li>
+                    <li><strong>📋 Pendientes</strong> - Tasks waiting to be started</li>
+                    <li><strong>🚀 En Progreso</strong> - Currently being worked on</li>
+                    <li><strong>👀 Revisión</strong> - Terminado, awaiting approval</li>
+                    <li><strong>✅ Terminado</strong> - Completed tasks</li>
                 </ul>
             </div>
 
@@ -2433,12 +2433,12 @@
 
                 <h3 style="margin: 1.5rem 0 0.5rem;">Comments</h3>
                 <p style="color: var(--text-secondary); line-height: 1.6;">
-                    Add comments to tasks for context or feedback. Comments on <strong>Review</strong> tasks trigger notifications to MoltBot.
+                    Add comments to tasks for context or feedback. Comments on <strong>Revisión</strong> tasks trigger notifications to MoltBot.
                 </p>
 
                 <h3 style="margin: 1.5rem 0 0.5rem;">Projects & Tags</h3>
                 <p style="color: var(--text-secondary); line-height: 1.6;">
-                    Organize tasks by project. Use the ⚙️ Settings to add new projects. Filter tasks using the project buttons.
+                    Organize tasks by project. Use the ⚙️ Ajustes to add new projects. Filter tasks using the project buttons.
                 </p>
             </div>
 
@@ -2448,9 +2448,9 @@
                     Mission Control is connected to MoltBot via webhooks. When you make changes:
                 </p>
                 <ul style="color: var(--text-secondary); line-height: 1.8; margin-left: 1.5rem;">
-                    <li><strong>Move task to "In Progress"</strong> → MoltBot receives a work order and starts processing</li>
-                    <li><strong>Add comment on Review task</strong> → MoltBot sees your feedback</li>
-                    <li><strong>MoltBot completes work</strong> → Task moves to "Review" automatically</li>
+                    <li><strong>Move task to "En Progreso"</strong> → MoltBot receives a work order and starts processing</li>
+                    <li><strong>Add comment on Revisión task</strong> → MoltBot sees your feedback</li>
+                    <li><strong>MoltBot completes work</strong> → Task moves to "Revisión" automatically</li>
                 </ul>
 
                 <div style="background: var(--bg-secondary); padding: 1rem; border-radius: 8px; margin-top: 1rem;">
@@ -2489,7 +2489,7 @@
                 <details style="margin-bottom: 1rem;">
                     <summary style="cursor: pointer; font-weight: 500;">How do I create a new project?</summary>
                     <p style="color: var(--text-secondary); padding: 0.5rem 0 0 1rem;">
-                        Click the ⚙️ Settings button (when logged in) → Add a new project with ID, name, icon, and color.
+                        Click the ⚙️ Ajustes button (when logged in) → Add a new project with ID, name, icon, and color.
                     </p>
                 </details>
 
@@ -2537,7 +2537,7 @@
                     <div class="step">
                         <span class="step-number">1</span>
                         <div class="step-content">
-                            <div class="step-title">Create a Personal Access Token</div>
+                            <div class="step-title">Crea un Token de Acceso Personal (PAT)</div>
                             <div class="step-description">
                                 <a href="https://github.com/settings/tokens/new?scopes=repo&description=Mission%20Control%20Dashboard" target="_blank">
                                     Click here to create a token →
@@ -2548,14 +2548,14 @@
                     <div class="step">
                         <span class="step-number">2</span>
                         <div class="step-content">
-                            <div class="step-title">Select "repo" scope</div>
+                            <div class="step-title">Selecciona el permiso "repo"</div>
                             <div class="step-description">This allows read/write access to repositories</div>
                         </div>
                     </div>
                     <div class="step">
                         <span class="step-number">3</span>
                         <div class="step-content">
-                            <div class="step-title">Paste your token below</div>
+                            <div class="step-title">Pega tu token abajo</div>
                             <div class="step-description">The token starts with "ghp_"</div>
                         </div>
                     </div>
@@ -2565,7 +2565,7 @@
                     <label class="form-label">GitHub Personal Access Token</label>
                     <input type="password" class="form-input" id="token-input" placeholder="ghp_xxxxxxxxxxxxxxxxxxxx" autocomplete="off">
                     <div class="form-hint">
-                        🔒 Your token is stored locally and never sent anywhere except GitHub.
+                        🔒 Tu token se guarda localmente y nunca se envía a ningún lado excepto a GitHub.
                     </div>
                     <div class="validation-loading" id="validation-loading">
                         <div class="spinner"></div>
@@ -2588,12 +2588,12 @@
         </div>
     </div>
 
-    <!-- Settings Modal -->
-    <div class="modal-overlay" id="settings-modal" onclick="if(event.target===this)hideSettingsModal()">
+    <!-- Ajustes Modal -->
+    <div class="modal-overlay" id="settings-modal" onclick="if(event.target===this)hideAjustesModal()">
         <div class="modal" style="max-width: 500px;">
             <div class="modal-header">
-                <h2 class="modal-title">⚙️ Settings</h2>
-                <button class="modal-close" onclick="hideSettingsModal()">&times;</button>
+                <h2 class="modal-title">⚙️ Ajustes</h2>
+                <button class="modal-close" onclick="hideAjustesModal()">&times;</button>
             </div>
             <div class="modal-body">
                 <h3 style="margin-bottom: 12px; font-size: 1rem;">Projects</h3>
@@ -2688,10 +2688,10 @@
                         <select class="form-input" id="task-status">
                             <option value="permanent">Permanent</option>
                             <option value="scheduled">Scheduled</option>
-                            <option value="backlog">Backlog</option>
-                            <option value="in_progress">In Progress</option>
-                            <option value="review">Review</option>
-                            <option value="done">Done</option>
+                            <option value="backlog">Pendientes</option>
+                            <option value="in_progress">En Progreso</option>
+                            <option value="review">Revisión</option>
+                            <option value="done">Terminado</option>
                         </select>
                     </div>
                     <div class="form-group">
@@ -2825,7 +2825,7 @@
                 },
                 {
                     id: "task_p02",
-                    title: "Review analytics dashboard",
+                    title: "Revisión analytics dashboard",
                     description: "Check KPIs and identify trends or anomalies",
                     status: "permanent",
                     project: "growth",
@@ -3546,9 +3546,9 @@
                     tasks = tasks.filter(t => t.project === currentFilter || (t.tags && t.tags.includes(currentFilter)));
                 }
 
-                // Sort: Done column by completedAt (newest first), others by priority + sortOrder
+                // Sort: Terminado column by completedAt (newest first), others by priority + sortOrder
                 if (status === 'done') {
-                    // Done: newest completed tasks first
+                    // Terminado: newest completed tasks first
                     tasks.sort((a, b) => {
                         const dateA = a.completedAt ? new Date(a.completedAt).getTime() : 0;
                         const dateB = b.completedAt ? new Date(b.completedAt).getTime() : 0;
@@ -3604,17 +3604,17 @@
         }
 
         function renderTaskCard(task) {
-            const subtasksDone = task.subtasks.filter(s => s.done).length;
+            const subtasksTerminado = task.subtasks.filter(s => s.done).length;
             const subtasksTotal = task.subtasks.length;
-            const progress = subtasksTotal > 0 ? Math.round((subtasksDone / subtasksTotal) * 100) : 0;
+            const progress = subtasksTotal > 0 ? Math.round((subtasksTerminado / subtasksTotal) * 100) : 0;
             const commentsCount = (task.comments || []).length;
             const isArchived = task.archived === true;
 
-            // Review actions
+            // Revisión actions
             const reviewActions = task.status === 'review' ? `
                 <div class="task-actions" onclick="event.stopPropagation()">
-                    <button class="task-action-btn done" onclick="quickMoveTask('${task.id}', 'done')" title="Mark as Done">✓ Done</button>
-                    <button class="task-action-btn backlog" onclick="quickMoveTask('${task.id}', 'backlog')" title="Move to Backlog">↩ Backlog</button>
+                    <button class="task-action-btn done" onclick="quickMoveTask('${task.id}', 'done')" title="Mark as Terminado">✓ Terminado</button>
+                    <button class="task-action-btn backlog" onclick="quickMoveTask('${task.id}', 'backlog')" title="Move to Pendientes">↩ Pendientes</button>
                 </div>
             ` : '';
 
@@ -3706,7 +3706,7 @@
                     ${subtasksTotal > 0 ? `
                         <div class="task-subtasks">
                             <div class="subtask-progress">
-                                <span>${subtasksDone}/${subtasksTotal}</span>
+                                <span>${subtasksTerminado}/${subtasksTotal}</span>
                                 <div class="progress-bar">
                                     <div class="progress-fill" style="width: ${progress}%"></div>
                                 </div>
@@ -3978,7 +3978,7 @@
                     tasks = tasks.filter(t => t.project === currentFilter || (t.tags && t.tags.includes(currentFilter)));
                 }
 
-                // Sort: Done column by completedAt (newest first), others by priority + sortOrder
+                // Sort: Terminado column by completedAt (newest first), others by priority + sortOrder
                 if (status === 'done') {
                     tasks.sort((a, b) => {
                         const dateA = a.completedAt ? new Date(a.completedAt).getTime() : 0;
@@ -4151,7 +4151,7 @@
             }
         }
 
-        function archiveAllDone() {
+        function archiveAllTerminado() {
             const doneTasks = STATE.data.tasks.filter(t => t.status === 'done' && !t.archived);
             if (doneTasks.length === 0) {
                 showToast('No tasks to archive', 'info');
@@ -4164,7 +4164,7 @@
                 task.archivedAt = new Date().toISOString();
             });
             
-            addActivity(`📦 Archived ${count} task${count > 1 ? 's' : ''} from Done`, 'archive');
+            addActivity(`📦 Archived ${count} task${count > 1 ? 's' : ''} from Terminado`, 'archive');
             renderTasks();
             autoSave(`Archive ${count} task${count > 1 ? 's' : ''}`);
             showToast(`Archived ${count} task${count > 1 ? 's' : ''}`, 'success');
@@ -4781,7 +4781,7 @@
                 renderComments(task);
                 input.value = '';
 
-                // AUTO-SAVE mit speziellem Hinweis bei Review-Tasks
+                // AUTO-SAVE mit speziellem Hinweis bei Revisión-Tasks
                 let commitMsg = `Comment on "${task.title}": ${text.substring(0, 50)}${text.length > 50 ? '...' : ''}`;
                 if (task.status === 'review') {
                     commitMsg = `💬 FEEDBACK on "${task.title}": ${text.substring(0, 50)}${text.length > 50 ? '...' : ''}`;
@@ -4799,7 +4799,7 @@
             currentEditingTaskId = null;
 
             // Reset modal
-            document.getElementById('task-modal-title').textContent = 'New Task';
+            document.getElementById('task-modal-title').textContent = 'Nueva Tarea';
             document.getElementById('task-title').value = '';
             document.getElementById('task-description').value = '';
             document.getElementById('task-status').value = status;
@@ -4943,12 +4943,12 @@
         }
 
         // === SETTINGS MODAL ===
-        function showSettingsModal() {
+        function showAjustesModal() {
             renderProjectsList();
             document.getElementById('settings-modal').classList.add('visible');
         }
 
-        function hideSettingsModal() {
+        function hideAjustesModal() {
             document.getElementById('settings-modal').classList.remove('visible');
         }
 
@@ -5417,7 +5417,7 @@
             }, 200);
         }
 
-        // Template Done Confirmation Dialog
+        // Template Terminado Confirmation Dialog
         function showTemplateExecutionDialog(taskId) {
             const task = STATE.data.tasks.find(t => t.id === taskId);
             if (!task || !task.createdFromTemplate) {
@@ -5747,7 +5747,7 @@
                     // Disable the cron
                     disableCronJob(cronId);
                 } else {
-                    showToast('info', 'Drop on "In Progress" to execute, "Done" to disable');
+                    showToast('info', 'Drop on "En Progreso" to execute, "Terminado" to disable');
                 }
                 return;
             }
@@ -5765,7 +5765,7 @@
             const oldStatus = task.status;
             const statusChanged = task.status !== newStatus;
             
-            // Check if this is a template-created task being moved to Done
+            // Check if this is a template-created task being moved to Terminado
             if (newStatus === 'done' && task.createdFromTemplate) {
                 showTemplateExecutionDialog(draggedTaskId);
                 draggedTaskId = null;
