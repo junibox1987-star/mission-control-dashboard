@@ -158,7 +158,7 @@
       "id": "task_example",
       "title": "Tarea de Ejemplo — ¡Bórrala cuando quieras!",
       "description": "Este es un ejemplo de cómo se ve una tarea real. Siéntete libre de editarla o borrarla.\n\n**Las buenas descripciones incluyen:**\n- Qué se necesita hacer\n- Por qué es importante\n- Cualquier requisito o limitación\n- Enlaces a recursos relevantes",
-      "status": "backlog",
+      "status": "done",
       "project": "default",
       "tags": [
         "ejemplo"
@@ -182,7 +182,9 @@
       ],
       "priority": "low",
       "comments": [],
-      "createdAt": "2026-01-01T00:00:02Z"
+      "createdAt": "2026-01-01T00:00:02Z",
+      "completedAt": "2026-02-28T06:46:01.508Z",
+      "sortOrder": 0
     },
     {
       "id": "task_1772260352146",
@@ -225,6 +227,14 @@
     {
       "type": "moved",
       "actor": "junibox1987-star",
+      "task": "Tarea de Ejemplo — ¡Bórrala cuando quieras!",
+      "from": "backlog",
+      "to": "done",
+      "time": "justo ahora"
+    },
+    {
+      "type": "moved",
+      "actor": "junibox1987-star",
       "task": "prueba de fuego para Lucy",
       "from": "review",
       "to": "done",
@@ -251,5 +261,5 @@
       "time": "justo ahora"
     }
   ],
-  "lastUpdated": "2026-02-28T06:45:56.371Z"
+  "lastUpdated": "2026-02-28T06:46:01.508Z"
 }
