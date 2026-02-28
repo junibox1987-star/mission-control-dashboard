@@ -33,6 +33,41 @@
             min-height: 100vh;
         }
 
+        
+        /* === AGENTS WIDGET === */
+        .agents-widget {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            margin-right: 20px;
+            padding-right: 20px;
+            border-right: 1px solid var(--border);
+        }
+        .agent-badge {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            background: var(--bg-card);
+            padding: 5px 12px;
+            border-radius: 20px;
+            border: 1px solid var(--border);
+            font-size: 0.85rem;
+            color: var(--text-primary);
+        }
+        .agent-status-dot {
+            width: 8px;
+            height: 8px;
+            border-radius: 50%;
+            background: var(--accent-green);
+            box-shadow: 0 0 8px var(--accent-green);
+            animation: pulse 2s infinite;
+        }
+        @keyframes pulse {
+            0% { opacity: 1; transform: scale(1); }
+            50% { opacity: 0.5; transform: scale(1.2); }
+            100% { opacity: 1; transform: scale(1); }
+        }
+
         /* Header */
         .header {
             display: flex;
@@ -2190,6 +2225,19 @@
             </div>
         </div>
         <div class="header-right">
+
+                <!-- Agents Widget -->
+                <div class="agents-widget">
+                    <div class="agent-badge" title="Arturito (Airbnb) - Online & Ready">
+                        <div class="agent-status-dot"></div>
+                        🤖 Arturito
+                    </div>
+                    <div class="agent-badge" title="Lucy (CTO) - System Watch">
+                        <div class="agent-status-dot" style="background: var(--accent-blue); box-shadow: 0 0 8px var(--accent-blue);"></div>
+                        👩‍💻 Lucy
+                    </div>
+                </div>
+
             <span class="live-indicator live" id="live-indicator">Live</span>
             <button class="btn btn-secondary" onclick="pollForUpdates(); window.location.reload()">↻ Refresh</button>
 
