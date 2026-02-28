@@ -158,7 +158,7 @@
       "id": "task_example",
       "title": "Tarea de Ejemplo — ¡Bórrala cuando quieras!",
       "description": "Este es un ejemplo de cómo se ve una tarea real. Siéntete libre de editarla o borrarla.\n\n**Las buenas descripciones incluyen:**\n- Qué se necesita hacer\n- Por qué es importante\n- Cualquier requisito o limitación\n- Enlaces a recursos relevantes",
-      "status": "in_progress",
+      "status": "review",
       "project": "default",
       "tags": [
         "ejemplo"
@@ -227,6 +227,14 @@
       "type": "moved",
       "actor": "junibox1987-star",
       "task": "Tarea de Ejemplo — ¡Bórrala cuando quieras!",
+      "from": "in_progress",
+      "to": "review",
+      "time": "justo ahora"
+    },
+    {
+      "type": "moved",
+      "actor": "junibox1987-star",
+      "task": "Tarea de Ejemplo — ¡Bórrala cuando quieras!",
       "from": "scheduled",
       "to": "in_progress",
       "time": "justo ahora"
@@ -276,5 +284,5 @@
       "time": "justo ahora"
     }
   ],
-  "lastUpdated": "2026-02-28T07:08:49.587Z"
+  "lastUpdated": "2026-02-28T07:08:51.320Z"
 }
