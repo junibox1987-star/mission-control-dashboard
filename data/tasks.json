@@ -49,7 +49,7 @@
         {
           "id": "sub_008",
           "title": "8. Prueba: Crea una tarea, muévela a En Progreso, verifica que la IA reciba la notificación",
-          "done": false
+          "done": true
         }
       ],
       "priority": "high",
