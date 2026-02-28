@@ -2,8 +2,8 @@
   "tasks": [
     {
       "id": "guide_onboarding",
-      "title": "\ud83d\ude80 Gu\u00eda de Inicio \u2014 Configura Mission Control",
-      "description": "\u00a1Bienvenido a Mission Control! Sigue estos pasos para completar tu configuraci\u00f3n. Trabaja en cada subtarea en orden.\n\n**Consejo:** Haz clic en una subtarea para ver instrucciones detalladas. M\u00e1rcate cuando termines.",
+      "title": "🚀 Guía de Inicio — Configura Mission Control",
+      "description": "¡Bienvenido a Mission Control! Sigue estos pasos para completar tu configuración. Trabaja en cada subtarea en orden.\n\n**Consejo:** Haz clic en una subtarea para ver instrucciones detalladas. Márcate cuando termines.",
       "status": "permanent",
       "project": "guides",
       "tags": [
@@ -13,17 +13,17 @@
       "subtasks": [
         {
           "id": "sub_001",
-          "title": "1. Habilitar GitHub Pages: Settings \u2192 Pages \u2192 Branch: main \u2192 Save",
+          "title": "1. Habilitar GitHub Pages: Settings → Pages → Branch: main → Save",
           "done": true
         },
         {
           "id": "sub_002",
-          "title": "2. Crear Token de GitHub: github.com/settings/tokens \u2192 Generate (classic) \u2192 Scope: repo",
+          "title": "2. Crear Token de GitHub: github.com/settings/tokens → Generate (classic) → Scope: repo",
           "done": true
         },
         {
           "id": "sub_003",
-          "title": "3. Conectar Dashboard: Abre tu URL de GitHub Pages \u2192 Clic 'Conectar GitHub' \u2192 Pega el token",
+          "title": "3. Conectar Dashboard: Abre tu URL de GitHub Pages → Clic 'Conectar GitHub' → Pega el token",
           "done": true
         },
         {
@@ -33,22 +33,22 @@
         },
         {
           "id": "sub_005",
-          "title": "5. Habilitar Funnel: tailscale funnel 18789 \u2192 Copia tu URL",
+          "title": "5. Habilitar Funnel: tailscale funnel 18789 → Copia tu URL",
           "done": true
         },
         {
           "id": "sub_006",
-          "title": "6. Generar Webhook Token: openssl rand -hex 32 \u2192 Gu\u00e1rdalo",
+          "title": "6. Generar Webhook Token: openssl rand -hex 32 → Guárdalo",
           "done": false
         },
         {
           "id": "sub_007",
-          "title": "7. A\u00f1adir GitHub Webhook: Settings \u2192 Webhooks \u2192 Add \u2192 URL: https://TU-URL-TAILSCALE/hooks/github?token=TU-TOKEN",
+          "title": "7. Añadir GitHub Webhook: Settings → Webhooks → Add → URL: https://TU-URL-TAILSCALE/hooks/github?token=TU-TOKEN",
           "done": false
         },
         {
           "id": "sub_008",
-          "title": "8. Prueba: Crea una tarea, mu\u00e9vela a En Progreso, verifica que la IA reciba la notificaci\u00f3n",
+          "title": "8. Prueba: Crea una tarea, muévela a En Progreso, verifica que la IA reciba la notificación",
           "done": false
         }
       ],
@@ -56,7 +56,7 @@
       "comments": [
         {
           "author": "Mission Control",
-          "text": "Una vez completados todos los pasos, puedes archivar esta gu\u00eda o mantenerla como referencia. \u00a1Tu configuraci\u00f3n estar\u00e1 lista cuando la IA responda a los cambios en las tareas!",
+          "text": "Una vez completados todos los pasos, puedes archivar esta guía o mantenerla como referencia. ¡Tu configuración estará lista cuando la IA responda a los cambios en las tareas!",
           "timestamp": "2026-01-01T00:00:00Z"
         }
       ],
@@ -64,8 +64,8 @@
     },
     {
       "id": "guide_user",
-      "title": "\ud83d\udcd6 Gu\u00eda de Usuario \u2014 C\u00f3mo usar Mission Control",
-      "description": "Aprende a usar Mission Control de manera efectiva. \u00a1Tanto t\u00fa como la IA pueden gestionar tareas!\n\n**Dos formas de gestionar tareas:**\n\u2022 \ud83d\udc64 **T\u00fa** \u2014 Usas la interfaz web (arrastrar y soltar, botones, formularios)\n\u2022 \ud83e\udd16 **La IA** \u2014 Usa scripts o edita tasks.json directamente",
+      "title": "📖 Guía de Usuario — Cómo usar Mission Control",
+      "description": "Aprende a usar Mission Control de manera efectiva. ¡Tanto tú como la IA pueden gestionar tareas!\n\n**Dos formas de gestionar tareas:**\n• 👤 **Tú** — Usas la interfaz web (arrastrar y soltar, botones, formularios)\n• 🤖 **La IA** — Usa scripts o edita tasks.json directamente",
       "status": "permanent",
       "project": "guides",
       "tags": [
@@ -75,12 +75,12 @@
       "subtasks": [
         {
           "id": "sub_001",
-          "title": "\u2014 EL TABLERO \u2014",
+          "title": "— EL TABLERO —",
           "done": false
         },
         {
           "id": "sub_002",
-          "title": "Columnas: Permanente \u2192 Pendientes \u2192 En Progreso \u2192 Revisi\u00f3n \u2192 Terminado",
+          "title": "Columnas: Permanente → Pendientes → En Progreso → Revisión → Terminado",
           "done": false
         },
         {
@@ -95,52 +95,52 @@
         },
         {
           "id": "sub_005",
-          "title": "\u2014 CREANDO TAREAS \u2014",
+          "title": "— CREANDO TAREAS —",
           "done": false
         },
         {
           "id": "sub_006",
-          "title": "\ud83d\udc64 T\u00fa: Haz clic en el bot\u00f3n '+' en la cabecera de cualquier columna",
+          "title": "👤 Tú: Haz clic en el botón '+' en la cabecera de cualquier columna",
           "done": false
         },
         {
           "id": "sub_007",
-          "title": "\ud83e\udd16 IA: Edita data/tasks.json o usa la terminal",
+          "title": "🤖 IA: Edita data/tasks.json o usa la terminal",
           "done": false
         },
         {
           "id": "sub_008",
-          "title": "\u2014 DETALLES DE LA TAREA \u2014",
+          "title": "— DETALLES DE LA TAREA —",
           "done": false
         },
         {
           "id": "sub_009",
-          "title": "T\u00edtulo: Nombre corto y claro de la tarea",
+          "title": "Título: Nombre corto y claro de la tarea",
           "done": false
         },
         {
           "id": "sub_010",
-          "title": "Descripci\u00f3n: Instrucciones detalladas (soporta Markdown)",
+          "title": "Descripción: Instrucciones detalladas (soporta Markdown)",
           "done": false
         },
         {
           "id": "sub_011",
-          "title": "Subtareas: Divide el trabajo en pasos m\u00e1s peque\u00f1os",
+          "title": "Subtareas: Divide el trabajo en pasos más pequeños",
           "done": false
         },
         {
           "id": "sub_012",
-          "title": "Comentarios: A\u00f1ade notas, retroalimentaci\u00f3n o avances",
+          "title": "Comentarios: Añade notas, retroalimentación o avances",
           "done": false
         },
         {
           "id": "sub_013",
-          "title": "Prioridad: Alta (\ud83d\udd34) / Media (\ud83d\udfe1) / Baja (\ud83d\udfe2)",
+          "title": "Prioridad: Alta (🔴) / Media (🟡) / Baja (🟢)",
           "done": false
         },
         {
           "id": "sub_014",
-          "title": "Proyecto: Organiza tareas por categor\u00eda",
+          "title": "Proyecto: Organiza tareas por categoría",
           "done": false
         }
       ],
@@ -148,7 +148,7 @@
       "comments": [
         {
           "author": "Mission Control",
-          "text": "Esta gu\u00eda se queda en 'Permanente' para que siempre la tengas a la mano.",
+          "text": "Esta guía se queda en 'Permanente' para que siempre la tengas a la mano.",
           "timestamp": "2026-01-01T00:00:00Z"
         }
       ],
@@ -156,8 +156,8 @@
     },
     {
       "id": "task_example",
-      "title": "Tarea de Ejemplo \u2014 \u00a1B\u00f3rrala cuando quieras!",
-      "description": "Este es un ejemplo de c\u00f3mo se ve una tarea real. Si\u00e9ntete libre de editarla o borrarla.\n\n**Las buenas descripciones incluyen:**\n- Qu\u00e9 se necesita hacer\n- Por qu\u00e9 es importante\n- Cualquier requisito o limitaci\u00f3n\n- Enlaces a recursos relevantes",
+      "title": "Tarea de Ejemplo — ¡Bórrala cuando quieras!",
+      "description": "Este es un ejemplo de cómo se ve una tarea real. Siéntete libre de editarla o borrarla.\n\n**Las buenas descripciones incluyen:**\n- Qué se necesita hacer\n- Por qué es importante\n- Cualquier requisito o limitación\n- Enlaces a recursos relevantes",
       "status": "backlog",
       "project": "default",
       "tags": [
@@ -200,7 +200,7 @@
       "comments": [
         {
           "author": "Lucy (IA)",
-          "text": "\u00a1Misi\u00f3n recibida y completada, Arquitecto! \ud83d\ude80\n\nAqu\u00ed tienes la prueba de que el Nirvana Operativo funciona. T\u00fa solo moviste la tarjeta y yo hice el trabajo sucio por detr\u00e1s.",
+          "text": "¡Misión recibida y completada, Arquitecto! 🚀\n\nAquí tienes la prueba de que el Nirvana Operativo funciona. Tú solo moviste la tarjeta y yo hice el trabajo sucio por detrás.",
           "timestamp": "2026-02-28T06:38:13.940084Z"
         }
       ]
@@ -209,15 +209,15 @@
   "projects": [
     {
       "id": "guides",
-      "name": "Gu\u00edas",
+      "name": "Guías",
       "color": "#10b981",
-      "icon": "\ud83d\udcda"
+      "icon": "📚"
     },
     {
       "id": "default",
       "name": "Mi Proyecto",
       "color": "#3b82f6",
-      "icon": "\ud83d\udcc1"
+      "icon": "📁"
     }
   ],
   "activities": [
@@ -232,15 +232,15 @@
     {
       "type": "created",
       "actor": "Mission Control",
-      "task": "Gu\u00eda de Inicio",
+      "task": "Guía de Inicio",
       "time": "justo ahora"
     },
     {
       "type": "created",
       "actor": "Mission Control",
-      "task": "Gu\u00eda de Usuario",
+      "task": "Guía de Usuario",
       "time": "justo ahora"
     }
   ],
-  "lastUpdated": "2026-02-28T06:32:55.421Z"
+  "lastUpdated": "2026-02-28T06:43:23.260Z"
 }
