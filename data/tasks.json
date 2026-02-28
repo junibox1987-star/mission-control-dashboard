@@ -195,7 +195,8 @@
       "subtasks": [],
       "priority": "medium",
       "createdAt": "2026-02-28T06:32:32.146Z",
-      "status": "backlog"
+      "status": "in_progress",
+      "sortOrder": 0
     }
   ],
   "projects": [
@@ -214,6 +215,14 @@
   ],
   "activities": [
     {
+      "type": "moved",
+      "actor": "junibox1987-star",
+      "task": "prueba de fuego para Lucy",
+      "from": "backlog",
+      "to": "in_progress",
+      "time": "justo ahora"
+    },
+    {
       "type": "created",
       "actor": "Mission Control",
       "task": "Guía de Inicio",
@@ -226,5 +235,5 @@
       "time": "justo ahora"
     }
   ],
-  "lastUpdated": "2026-02-28T06:32:32.146Z"
+  "lastUpdated": "2026-02-28T06:32:55.421Z"
 }
