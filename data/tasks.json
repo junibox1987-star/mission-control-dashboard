@@ -2,8 +2,8 @@
   "tasks": [
     {
       "id": "guide_onboarding",
-      "title": "🚀 Guía de Inicio — Configura Mission Control",
-      "description": "¡Bienvenido a Mission Control! Sigue estos pasos para completar tu configuración. Trabaja en cada subtarea en orden.\n\n**Consejo:** Haz clic en una subtarea para ver instrucciones detalladas. Márcate cuando termines.",
+      "title": "\ud83d\ude80 Gu\u00eda de Inicio \u2014 Configura Mission Control",
+      "description": "\u00a1Bienvenido a Mission Control! Sigue estos pasos para completar tu configuraci\u00f3n. Trabaja en cada subtarea en orden.\n\n**Consejo:** Haz clic en una subtarea para ver instrucciones detalladas. M\u00e1rcate cuando termines.",
       "status": "permanent",
       "project": "guides",
       "tags": [
@@ -13,17 +13,17 @@
       "subtasks": [
         {
           "id": "sub_001",
-          "title": "1. Habilitar GitHub Pages: Settings → Pages → Branch: main → Save",
+          "title": "1. Habilitar GitHub Pages: Settings \u2192 Pages \u2192 Branch: main \u2192 Save",
           "done": true
         },
         {
           "id": "sub_002",
-          "title": "2. Crear Token de GitHub: github.com/settings/tokens → Generate (classic) → Scope: repo",
+          "title": "2. Crear Token de GitHub: github.com/settings/tokens \u2192 Generate (classic) \u2192 Scope: repo",
           "done": true
         },
         {
           "id": "sub_003",
-          "title": "3. Conectar Dashboard: Abre tu URL de GitHub Pages → Clic 'Conectar GitHub' → Pega el token",
+          "title": "3. Conectar Dashboard: Abre tu URL de GitHub Pages \u2192 Clic 'Conectar GitHub' \u2192 Pega el token",
           "done": true
         },
         {
@@ -33,22 +33,22 @@
         },
         {
           "id": "sub_005",
-          "title": "5. Habilitar Funnel: tailscale funnel 18789 → Copia tu URL",
+          "title": "5. Habilitar Funnel: tailscale funnel 18789 \u2192 Copia tu URL",
           "done": true
         },
         {
           "id": "sub_006",
-          "title": "6. Generar Webhook Token: openssl rand -hex 32 → Guárdalo",
+          "title": "6. Generar Webhook Token: openssl rand -hex 32 \u2192 Gu\u00e1rdalo",
           "done": true
         },
         {
           "id": "sub_007",
-          "title": "7. Añadir GitHub Webhook: Settings → Webhooks → Add → URL: https://TU-URL-TAILSCALE/hooks/github?token=TU-TOKEN",
+          "title": "7. A\u00f1adir GitHub Webhook: Settings \u2192 Webhooks \u2192 Add \u2192 URL: https://TU-URL-TAILSCALE/hooks/github?token=TU-TOKEN",
           "done": true
         },
         {
           "id": "sub_008",
-          "title": "8. Prueba: Crea una tarea, muévela a En Progreso, verifica que la IA reciba la notificación",
+          "title": "8. Prueba: Crea una tarea, mu\u00e9vela a En Progreso, verifica que la IA reciba la notificaci\u00f3n",
           "done": true
         }
       ],
@@ -56,7 +56,7 @@
       "comments": [
         {
           "author": "Mission Control",
-          "text": "Una vez completados todos los pasos, puedes archivar esta guía o mantenerla como referencia. ¡Tu configuración estará lista cuando la IA responda a los cambios en las tareas!",
+          "text": "Una vez completados todos los pasos, puedes archivar esta gu\u00eda o mantenerla como referencia. \u00a1Tu configuraci\u00f3n estar\u00e1 lista cuando la IA responda a los cambios en las tareas!",
           "timestamp": "2026-01-01T00:00:00Z"
         }
       ],
@@ -64,8 +64,8 @@
     },
     {
       "id": "guide_user",
-      "title": "📖 Guía de Usuario — Cómo usar Mission Control",
-      "description": "Aprende a usar Mission Control de manera efectiva. ¡Tanto tú como la IA pueden gestionar tareas!\n\n**Dos formas de gestionar tareas:**\n• 👤 **Tú** — Usas la interfaz web (arrastrar y soltar, botones, formularios)\n• 🤖 **La IA** — Usa scripts o edita tasks.json directamente",
+      "title": "\ud83d\udcd6 Gu\u00eda de Usuario \u2014 C\u00f3mo usar Mission Control",
+      "description": "Aprende a usar Mission Control de manera efectiva. \u00a1Tanto t\u00fa como la IA pueden gestionar tareas!\n\n**Dos formas de gestionar tareas:**\n\u2022 \ud83d\udc64 **T\u00fa** \u2014 Usas la interfaz web (arrastrar y soltar, botones, formularios)\n\u2022 \ud83e\udd16 **La IA** \u2014 Usa scripts o edita tasks.json directamente",
       "status": "permanent",
       "project": "guides",
       "tags": [
@@ -75,12 +75,12 @@
       "subtasks": [
         {
           "id": "sub_001",
-          "title": "— EL TABLERO —",
+          "title": "\u2014 EL TABLERO \u2014",
           "done": false
         },
         {
           "id": "sub_002",
-          "title": "Columnas: Permanente → Pendientes → En Progreso → Revisión → Terminado",
+          "title": "Columnas: Permanente \u2192 Pendientes \u2192 En Progreso \u2192 Revisi\u00f3n \u2192 Terminado",
           "done": false
         },
         {
@@ -95,52 +95,52 @@
         },
         {
           "id": "sub_005",
-          "title": "— CREANDO TAREAS —",
+          "title": "\u2014 CREANDO TAREAS \u2014",
           "done": false
         },
         {
           "id": "sub_006",
-          "title": "👤 Tú: Haz clic en el botón '+' en la cabecera de cualquier columna",
+          "title": "\ud83d\udc64 T\u00fa: Haz clic en el bot\u00f3n '+' en la cabecera de cualquier columna",
           "done": false
         },
         {
           "id": "sub_007",
-          "title": "🤖 IA: Edita data/tasks.json o usa la terminal",
+          "title": "\ud83e\udd16 IA: Edita data/tasks.json o usa la terminal",
           "done": false
         },
         {
           "id": "sub_008",
-          "title": "— DETALLES DE LA TAREA —",
+          "title": "\u2014 DETALLES DE LA TAREA \u2014",
           "done": false
         },
         {
           "id": "sub_009",
-          "title": "Título: Nombre corto y claro de la tarea",
+          "title": "T\u00edtulo: Nombre corto y claro de la tarea",
           "done": false
         },
         {
           "id": "sub_010",
-          "title": "Descripción: Instrucciones detalladas (soporta Markdown)",
+          "title": "Descripci\u00f3n: Instrucciones detalladas (soporta Markdown)",
           "done": false
         },
         {
           "id": "sub_011",
-          "title": "Subtareas: Divide el trabajo en pasos más pequeños",
+          "title": "Subtareas: Divide el trabajo en pasos m\u00e1s peque\u00f1os",
           "done": false
         },
         {
           "id": "sub_012",
-          "title": "Comentarios: Añade notas, retroalimentación o avances",
+          "title": "Comentarios: A\u00f1ade notas, retroalimentaci\u00f3n o avances",
           "done": false
         },
         {
           "id": "sub_013",
-          "title": "Prioridad: Alta (🔴) / Media (🟡) / Baja (🟢)",
+          "title": "Prioridad: Alta (\ud83d\udd34) / Media (\ud83d\udfe1) / Baja (\ud83d\udfe2)",
           "done": false
         },
         {
           "id": "sub_014",
-          "title": "Proyecto: Organiza tareas por categoría",
+          "title": "Proyecto: Organiza tareas por categor\u00eda",
           "done": false
         }
       ],
@@ -148,7 +148,7 @@
       "comments": [
         {
           "author": "Mission Control",
-          "text": "Esta guía se queda en 'Permanente' para que siempre la tengas a la mano.",
+          "text": "Esta gu\u00eda se queda en 'Permanente' para que siempre la tengas a la mano.",
           "timestamp": "2026-01-01T00:00:00Z"
         }
       ],
@@ -156,8 +156,8 @@
     },
     {
       "id": "task_example",
-      "title": "Tarea de Ejemplo — ¡Bórrala cuando quieras!",
-      "description": "Este es un ejemplo de cómo se ve una tarea real. Siéntete libre de editarla o borrarla.\n\n**Las buenas descripciones incluyen:**\n- Qué se necesita hacer\n- Por qué es importante\n- Cualquier requisito o limitación\n- Enlaces a recursos relevantes",
+      "title": "Tarea de Ejemplo \u2014 \u00a1B\u00f3rrala cuando quieras!",
+      "description": "Este es un ejemplo de c\u00f3mo se ve una tarea real. Si\u00e9ntete libre de editarla o borrarla.\n\n**Las buenas descripciones incluyen:**\n- Qu\u00e9 se necesita hacer\n- Por qu\u00e9 es importante\n- Cualquier requisito o limitaci\u00f3n\n- Enlaces a recursos relevantes",
       "status": "done",
       "project": "default",
       "tags": [
@@ -202,32 +202,163 @@
       "comments": [
         {
           "author": "Lucy (IA)",
-          "text": "¡Misión recibida y completada, Arquitecto! 🚀\n\nAquí tienes la prueba de que el Nirvana Operativo funciona. Tú solo moviste la tarjeta y yo hice el trabajo sucio por detrás.",
+          "text": "\u00a1Misi\u00f3n recibida y completada, Arquitecto! \ud83d\ude80\n\nAqu\u00ed tienes la prueba de que el Nirvana Operativo funciona. T\u00fa solo moviste la tarjeta y yo hice el trabajo sucio por detr\u00e1s.",
           "timestamp": "2026-02-28T06:38:13.940084Z"
         }
       ],
       "completedAt": "2026-02-28T06:43:42.365Z"
+    },
+    {
+      "id": "arturito_flow_1",
+      "title": "Flujo 1: Contacto y Disponibilidad",
+      "description": "**Objetivo:** Arturito atiende al cliente y checa fechas.\n\n**Acciones autom\u00e1ticas:**\n1. Recibe mensaje de WhatsApp.\n2. Ejecuta `verificar_disponibilidad.py`.\n3. Responde si hay fechas libres y da precio base.",
+      "status": "permanent",
+      "project": "arturito",
+      "tags": [
+        "flujo",
+        "whatsapp"
+      ],
+      "subtasks": [
+        {
+          "id": "f1_1",
+          "title": "Script de calendario funcional",
+          "done": true
+        },
+        {
+          "id": "f1_2",
+          "title": "Conexi\u00f3n a WhatsApp activa",
+          "done": true
+        },
+        {
+          "id": "f1_3",
+          "title": "Prompt para responder con Emojis \ud83c\udf0a",
+          "done": true
+        }
+      ],
+      "priority": "high",
+      "comments": [
+        {
+          "author": "Lucy",
+          "text": "Este es el paso 1 del embudo. Ya est\u00e1 100% operativo.",
+          "timestamp": "2026-02-28T17:49:14.954651Z"
+        }
+      ],
+      "createdAt": "2026-02-28T17:49:14.954862Z"
+    },
+    {
+      "id": "arturito_flow_2",
+      "title": "Flujo 2: Env\u00edo de Fotos y Persuasi\u00f3n",
+      "description": "**Objetivo:** Enamorar al cliente mostrando la casa.\n\n**Acciones autom\u00e1ticas:**\n1. El cliente pregunta por la cocina o rec\u00e1maras.\n2. Arturito busca en el `mapa_fotos.json`.\n3. Ejecuta env\u00edo de fotos en HD con textos persuasivos (ahorro familiar).",
+      "status": "permanent",
+      "project": "arturito",
+      "tags": [
+        "flujo",
+        "ventas"
+      ],
+      "subtasks": [
+        {
+          "id": "f2_1",
+          "title": "Fotos descargadas (59 en HD)",
+          "done": true
+        },
+        {
+          "id": "f2_2",
+          "title": "Script de env\u00edo multimedia listo",
+          "done": true
+        },
+        {
+          "id": "f2_3",
+          "title": "Clasificar fotos en mapa_fotos.json",
+          "done": false
+        },
+        {
+          "id": "f2_4",
+          "title": "Afinar textos persuasivos por \u00e1rea",
+          "done": false
+        }
+      ],
+      "priority": "high",
+      "comments": [
+        {
+          "author": "Lucy",
+          "text": "Falta clasificar las fotos para que sepa exactamente cu\u00e1les enviar. Es nuestra siguiente misi\u00f3n.",
+          "timestamp": "2026-02-28T17:49:14.954867Z"
+        }
+      ],
+      "createdAt": "2026-02-28T17:49:14.954869Z"
+    },
+    {
+      "id": "arturito_flow_3",
+      "title": "Flujo 3: Cierre, Pago y Recibo PDF",
+      "description": "**Objetivo:** Cerrar la venta con 15% de descuento y enviar comprobante.\n\n**Acciones autom\u00e1ticas:**\n1. Arturito ofrece el descuento por transferencia.\n2. Env\u00eda datos bancarios.\n3. Al confirmar el pago, genera PDF de recibo.\n4. Env\u00eda PDF del Manual de la Casa.",
+      "status": "permanent",
+      "project": "arturito",
+      "tags": [
+        "flujo",
+        "cierres"
+      ],
+      "subtasks": [
+        {
+          "id": "f3_1",
+          "title": "Plantilla de Recibo PDF creada",
+          "done": false
+        },
+        {
+          "id": "f3_2",
+          "title": "Automatizar llenado del PDF con datos del cliente",
+          "done": false
+        },
+        {
+          "id": "f3_3",
+          "title": "Env\u00edo del Manual de Casa por WhatsApp",
+          "done": false
+        }
+      ],
+      "priority": "medium",
+      "comments": [],
+      "createdAt": "2026-02-28T17:49:14.954873Z"
+    },
+    {
+      "id": "arturito_improvement_1",
+      "title": "Mejora: Mapeo Inteligente de Fotos",
+      "description": "Necesito clasificar las 59 fotos en `mapa_fotos.json` para que Arturito sepa qu\u00e9 mandar. \n\n*Si me pasas esta tarjeta a En Progreso, yo empiezo a clasificar las fotos.*",
+      "status": "backlog",
+      "project": "arturito",
+      "tags": [
+        "mejora",
+        "fotos"
+      ],
+      "subtasks": [],
+      "priority": "high",
+      "comments": [],
+      "createdAt": "2026-02-28T17:49:14.954874Z"
     }
   ],
   "projects": [
     {
       "id": "guides",
-      "name": "Guías",
+      "name": "Gu\u00edas",
       "color": "#10b981",
-      "icon": "📚"
+      "icon": "\ud83d\udcda"
     },
     {
       "id": "default",
       "name": "Mi Proyecto",
       "color": "#3b82f6",
-      "icon": "📁"
+      "icon": "\ud83d\udcc1"
+    },
+    {
+      "id": "arturito",
+      "name": "\ud83e\udd16 Flujo Arturito",
+      "color": "#f59e0b",
+      "icon": "\ud83c\udfd6\ufe0f"
     }
   ],
   "activities": [
     {
       "type": "moved",
       "actor": "junibox1987-star",
-      "task": "Tarea de Ejemplo — ¡Bórrala cuando quieras!",
+      "task": "Tarea de Ejemplo \u2014 \u00a1B\u00f3rrala cuando quieras!",
       "from": "in_progress",
       "to": "review",
       "time": "justo ahora"
@@ -235,7 +366,7 @@
     {
       "type": "moved",
       "actor": "junibox1987-star",
-      "task": "Tarea de Ejemplo — ¡Bórrala cuando quieras!",
+      "task": "Tarea de Ejemplo \u2014 \u00a1B\u00f3rrala cuando quieras!",
       "from": "scheduled",
       "to": "in_progress",
       "time": "justo ahora"
@@ -243,7 +374,7 @@
     {
       "type": "moved",
       "actor": "junibox1987-star",
-      "task": "Tarea de Ejemplo — ¡Bórrala cuando quieras!",
+      "task": "Tarea de Ejemplo \u2014 \u00a1B\u00f3rrala cuando quieras!",
       "from": "done",
       "to": "scheduled",
       "time": "justo ahora"
@@ -251,7 +382,7 @@
     {
       "type": "moved",
       "actor": "junibox1987-star",
-      "task": "Tarea de Ejemplo — ¡Bórrala cuando quieras!",
+      "task": "Tarea de Ejemplo \u2014 \u00a1B\u00f3rrala cuando quieras!",
       "from": "backlog",
       "to": "done",
       "time": "justo ahora"
@@ -275,13 +406,13 @@
     {
       "type": "created",
       "actor": "Mission Control",
-      "task": "Guía de Inicio",
+      "task": "Gu\u00eda de Inicio",
       "time": "justo ahora"
     },
     {
       "type": "created",
       "actor": "Mission Control",
-      "task": "Guía de Usuario",
+      "task": "Gu\u00eda de Usuario",
       "time": "justo ahora"
     }
   ],
