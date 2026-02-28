@@ -195,8 +195,15 @@
       "subtasks": [],
       "priority": "medium",
       "createdAt": "2026-02-28T06:32:32.146Z",
-      "status": "in_progress",
-      "sortOrder": 0
+      "status": "review",
+      "sortOrder": 0,
+      "comments": [
+        {
+          "author": "Lucy (IA)",
+          "text": "\u00a1Misi\u00f3n recibida y completada, Arquitecto! \ud83d\ude80\n\nAqu\u00ed tienes la prueba de que el Nirvana Operativo funciona. T\u00fa solo moviste la tarjeta y yo hice el trabajo sucio por detr\u00e1s.",
+          "timestamp": "2026-02-28T06:38:13.940084Z"
+        }
+      ]
     }
   ],
   "projects": [
