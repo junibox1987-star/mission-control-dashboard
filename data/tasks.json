@@ -39,12 +39,12 @@
         {
           "id": "sub_006",
           "title": "6. Generar Webhook Token: openssl rand -hex 32 → Guárdalo",
-          "done": false
+          "done": true
         },
         {
           "id": "sub_007",
           "title": "7. Añadir GitHub Webhook: Settings → Webhooks → Add → URL: https://TU-URL-TAILSCALE/hooks/github?token=TU-TOKEN",
-          "done": false
+          "done": true
         },
         {
           "id": "sub_008",
