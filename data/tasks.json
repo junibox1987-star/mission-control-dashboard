@@ -195,7 +195,7 @@
       "subtasks": [],
       "priority": "medium",
       "createdAt": "2026-02-28T06:32:32.146Z",
-      "status": "review",
+      "status": "done",
       "sortOrder": 0,
       "comments": [
         {
@@ -203,7 +203,8 @@
           "text": "¡Misión recibida y completada, Arquitecto! 🚀\n\nAquí tienes la prueba de que el Nirvana Operativo funciona. Tú solo moviste la tarjeta y yo hice el trabajo sucio por detrás.",
           "timestamp": "2026-02-28T06:38:13.940084Z"
         }
-      ]
+      ],
+      "completedAt": "2026-02-28T06:43:42.365Z"
     }
   ],
   "projects": [
@@ -225,6 +226,14 @@
       "type": "moved",
       "actor": "junibox1987-star",
       "task": "prueba de fuego para Lucy",
+      "from": "review",
+      "to": "done",
+      "time": "justo ahora"
+    },
+    {
+      "type": "moved",
+      "actor": "junibox1987-star",
+      "task": "prueba de fuego para Lucy",
       "from": "backlog",
       "to": "in_progress",
       "time": "justo ahora"
@@ -242,5 +251,5 @@
       "time": "justo ahora"
     }
   ],
-  "lastUpdated": "2026-02-28T06:43:23.260Z"
+  "lastUpdated": "2026-02-28T06:43:42.365Z"
 }
