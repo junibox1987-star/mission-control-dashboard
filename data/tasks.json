@@ -158,7 +158,7 @@
       "id": "task_example",
       "title": "Tarea de Ejemplo — ¡Bórrala cuando quieras!",
       "description": "Este es un ejemplo de cómo se ve una tarea real. Siéntete libre de editarla o borrarla.\n\n**Las buenas descripciones incluyen:**\n- Qué se necesita hacer\n- Por qué es importante\n- Cualquier requisito o limitación\n- Enlaces a recursos relevantes",
-      "status": "review",
+      "status": "done",
       "project": "default",
       "tags": [
         "ejemplo"
@@ -183,7 +183,8 @@
       "priority": "low",
       "comments": [],
       "createdAt": "2026-01-01T00:00:02Z",
-      "sortOrder": 0
+      "sortOrder": 0,
+      "completedAt": "2026-02-28T07:08:57.871Z"
     },
     {
       "id": "task_1772260352146",
@@ -284,5 +285,5 @@
       "time": "justo ahora"
     }
   ],
-  "lastUpdated": "2026-02-28T07:08:51.320Z"
+  "lastUpdated": "2026-02-28T07:08:57.871Z"
 }
