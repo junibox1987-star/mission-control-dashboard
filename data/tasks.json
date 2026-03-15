@@ -198,7 +198,7 @@
       "title": "🧾 Generar recibo de pago",
       "description": "Crear PDF con datos de la reservación: nombre, fechas, monto, datos bancarios. poner logo de la alojamiento hospedaje castillo",
       "status": "review",
-      "project": "finanzas",
+      "project": "guides",
       "tags": [
         "recibo",
         "pago"
@@ -545,5 +545,5 @@
       "time": "justo ahora"
     }
   ],
-  "lastUpdated": "2026-03-15T08:52:48.522Z"
+  "lastUpdated": "2026-03-15T08:53:15.012Z"
 }
