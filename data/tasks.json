@@ -2,8 +2,8 @@
   "tasks": [
     {
       "id": "guide_onboarding",
-      "title": "\ud83d\ude80 Gu\u00eda de Inicio \u2014 Configura Mission Control",
-      "description": "\u00a1Bienvenido a Mission Control! Sigue estos pasos para completar tu configuraci\u00f3n.",
+      "title": "🚀 Guía de Inicio — Configura Mission Control",
+      "description": "¡Bienvenido a Mission Control! Sigue estos pasos para completar tu configuración.",
       "status": "permanent",
       "project": "guides",
       "tags": [
@@ -31,7 +31,7 @@
       "comments": [
         {
           "author": "Lucy",
-          "text": "\u2705 Configuraci\u00f3n completada!",
+          "text": "✅ Configuración completada!",
           "timestamp": "2026-03-15T01:00:00Z"
         }
       ],
@@ -39,8 +39,8 @@
     },
     {
       "id": "lead_001",
-      "title": "\ud83c\udfaf Atender nuevo lead",
-      "description": "Responder consultas de potenciales hu\u00e9spedes que contactan por WhatsApp o Airbnb.",
+      "title": "🎯 Atender nuevo lead",
+      "description": "Responder consultas de potenciales huéspedes que contactan por WhatsApp o Airbnb.",
       "status": "backlog",
       "project": "operaciones",
       "tags": [
@@ -50,11 +50,12 @@
       "subtasks": [],
       "priority": "high",
       "comments": [],
-      "createdAt": "2026-03-15T01:00:00Z"
+      "createdAt": "2026-03-15T01:00:00Z",
+      "sortOrder": 0
     },
     {
       "id": "lead_002",
-      "title": "\ud83d\udd25 Seguimiento a leads tibios",
+      "title": "🔥 Seguimiento a leads tibios",
       "description": "Contactar leads que no han respondido en 24 horas.",
       "status": "backlog",
       "project": "operaciones",
@@ -65,11 +66,12 @@
       "subtasks": [],
       "priority": "high",
       "comments": [],
-      "createdAt": "2026-03-15T01:00:00Z"
+      "createdAt": "2026-03-15T01:00:00Z",
+      "sortOrder": 1
     },
     {
       "id": "reserva_001",
-      "title": "\ud83d\udcb0 Confirmar reservaci\u00f3n",
+      "title": "💰 Confirmar reservación",
       "description": "Proceso de cierre de venta: ofrecer descuento, dar datos bancarios, confirmar pago.",
       "status": "backlog",
       "project": "operaciones",
@@ -80,11 +82,12 @@
       "subtasks": [],
       "priority": "high",
       "comments": [],
-      "createdAt": "2026-03-15T01:00:00Z"
+      "createdAt": "2026-03-15T01:00:00Z",
+      "sortOrder": 2
     },
     {
       "id": "reserva_002",
-      "title": "\ud83e\uddf9 Coordinaci\u00f3n de limpieza",
+      "title": "🧹 Coordinación de limpieza",
       "description": "Programar limpieza post-checkout y verificar disponibilidad.",
       "status": "backlog",
       "project": "operaciones",
@@ -95,11 +98,12 @@
       "subtasks": [],
       "priority": "medium",
       "comments": [],
-      "createdAt": "2026-03-15T01:00:00Z"
+      "createdAt": "2026-03-15T01:00:00Z",
+      "sortOrder": 0
     },
     {
       "id": "operacion_001",
-      "title": "\ud83d\udcc5 Verificar disponibilidad",
+      "title": "📅 Verificar disponibilidad",
       "description": "Consultar calendario Airbnb para confirmar fechas solicitadas por el cliente.",
       "status": "backlog",
       "project": "operaciones",
@@ -110,12 +114,13 @@
       "subtasks": [],
       "priority": "high",
       "comments": [],
-      "createdAt": "2026-03-15T01:00:00Z"
+      "createdAt": "2026-03-15T01:00:00Z",
+      "sortOrder": 3
     },
     {
       "id": "operacion_002",
-      "title": "\ud83d\udcb5 Actualizar precios de temporada",
-      "description": "Ajustar tarifas seg\u00fan temporada alta/baja, eventos especiales.",
+      "title": "💵 Actualizar precios de temporada",
+      "description": "Ajustar tarifas según temporada alta/baja, eventos especiales.",
       "status": "backlog",
       "project": "operaciones",
       "tags": [
@@ -125,12 +130,13 @@
       "subtasks": [],
       "priority": "medium",
       "comments": [],
-      "createdAt": "2026-03-15T01:00:00Z"
+      "createdAt": "2026-03-15T01:00:00Z",
+      "sortOrder": 1
     },
     {
       "id": "marketing_001",
-      "title": "\ud83d\udcf8 Enviar fotos de la propiedad",
-      "description": "Galer\u00eda personalizada al cliente seg\u00fan lo que pregunte (cocina, rec\u00e1maras, patio).",
+      "title": "📸 Enviar fotos de la propiedad",
+      "description": "Galería personalizada al cliente según lo que pregunte (cocina, recámaras, patio).",
       "status": "backlog",
       "project": "marketing",
       "tags": [
@@ -140,11 +146,12 @@
       "subtasks": [],
       "priority": "high",
       "comments": [],
-      "createdAt": "2026-03-15T01:00:00Z"
+      "createdAt": "2026-03-15T01:00:00Z",
+      "sortOrder": 4
     },
     {
       "id": "marketing_002",
-      "title": "\ud83d\udccd Enviar ubicaci\u00f3n",
+      "title": "📍 Enviar ubicación",
       "description": "Google Maps y direcciones desde la propiedad a la playa, restaurantes.",
       "status": "backlog",
       "project": "marketing",
@@ -155,12 +162,13 @@
       "subtasks": [],
       "priority": "medium",
       "comments": [],
-      "createdAt": "2026-03-15T01:00:00Z"
+      "createdAt": "2026-03-15T01:00:00Z",
+      "sortOrder": 2
     },
     {
       "id": "marketing_003",
-      "title": "\u2b50 Gestionar rese\u00f1as",
-      "description": "Responder a comentarios y rese\u00f1as en Airbnb.",
+      "title": "⭐ Gestionar reseñas",
+      "description": "Responder a comentarios y reseñas en Airbnb.",
       "status": "backlog",
       "project": "marketing",
       "tags": [
@@ -170,12 +178,13 @@
       "subtasks": [],
       "priority": "medium",
       "comments": [],
-      "createdAt": "2026-03-15T01:00:00Z"
+      "createdAt": "2026-03-15T01:00:00Z",
+      "sortOrder": 3
     },
     {
       "id": "finanzas_001",
-      "title": "\ud83e\uddfe Generar recibo de pago",
-      "description": "Crear PDF con datos de la reservaci\u00f3n: nombre, fechas, monto, datos bancarios.",
+      "title": "🧾 Generar recibo de pago",
+      "description": "Crear PDF con datos de la reservación: nombre, fechas, monto, datos bancarios.",
       "status": "backlog",
       "project": "finanzas",
       "tags": [
@@ -185,11 +194,12 @@
       "subtasks": [],
       "priority": "high",
       "comments": [],
-      "createdAt": "2026-03-15T01:00:00Z"
+      "createdAt": "2026-03-15T01:00:00Z",
+      "sortOrder": 5
     },
     {
       "id": "finanzas_002",
-      "title": "\ud83d\udcb3 Seguimiento de cobros",
+      "title": "💳 Seguimiento de cobros",
       "description": "Confirmar que el pago fue realizado y verificar en estado de cuenta.",
       "status": "backlog",
       "project": "finanzas",
@@ -200,12 +210,13 @@
       "subtasks": [],
       "priority": "high",
       "comments": [],
-      "createdAt": "2026-03-15T01:00:00Z"
+      "createdAt": "2026-03-15T01:00:00Z",
+      "sortOrder": 6
     },
     {
       "id": "finanzas_003",
-      "title": "\ud83d\udcca Reporte mensual de ingresos",
-      "description": "Resumen de ingresos del mes: reservaciones, ocupaci\u00f3n, promedio nightly.",
+      "title": "📊 Reporte mensual de ingresos",
+      "description": "Resumen de ingresos del mes: reservaciones, ocupación, promedio nightly.",
       "status": "backlog",
       "project": "finanzas",
       "tags": [
@@ -215,12 +226,13 @@
       "subtasks": [],
       "priority": "low",
       "comments": [],
-      "createdAt": "2026-03-15T01:00:00Z"
+      "createdAt": "2026-03-15T01:00:00Z",
+      "sortOrder": 0
     },
     {
       "id": "desarrollo_001",
-      "title": "\ud83d\udd27 Actualizar base de conocimientos",
-      "description": "Agregar nueva informaci\u00f3n de la propiedad, precios, amenidades.",
+      "title": "🔧 Actualizar base de conocimientos",
+      "description": "Agregar nueva información de la propiedad, precios, amenidades.",
       "status": "backlog",
       "project": "desarrollo",
       "tags": [
@@ -230,12 +242,13 @@
       "subtasks": [],
       "priority": "medium",
       "comments": [],
-      "createdAt": "2026-03-15T01:00:00Z"
+      "createdAt": "2026-03-15T01:00:00Z",
+      "sortOrder": 4
     },
     {
       "id": "desarrollo_002",
-      "title": "\ud83d\uddbc\ufe0f Agregar fotos nuevas",
-      "description": "Actualizar galer\u00eda con fotos de mejoras o nuevas \u00e1reas.",
+      "title": "🖼️ Agregar fotos nuevas",
+      "description": "Actualizar galería con fotos de mejoras o nuevas áreas.",
       "status": "backlog",
       "project": "desarrollo",
       "tags": [
@@ -245,12 +258,13 @@
       "subtasks": [],
       "priority": "medium",
       "comments": [],
-      "createdAt": "2026-03-15T01:00:00Z"
+      "createdAt": "2026-03-15T01:00:00Z",
+      "sortOrder": 5
     },
     {
       "id": "desarrollo_003",
-      "title": "\ud83e\uddea Testing de funcionalidades",
-      "description": "Verificar que todos los scripts y flows est\u00e9n funcionando correctamente.",
+      "title": "🧪 Testing de funcionalidades",
+      "description": "Verificar que todos los scripts y flows estén funcionando correctamente.",
       "status": "backlog",
       "project": "desarrollo",
       "tags": [
@@ -260,13 +274,14 @@
       "subtasks": [],
       "priority": "medium",
       "comments": [],
-      "createdAt": "2026-03-15T01:00:00Z"
+      "createdAt": "2026-03-15T01:00:00Z",
+      "sortOrder": 6
     },
     {
       "id": "analisis_001",
-      "title": "\ud83d\udcc8 Revisar m\u00e9tricas de leads",
-      "description": "Tasa de conversi\u00f3n: cu\u00e1ntos leads se convierten en reservas.",
-      "status": "review",
+      "title": "📈 Revisar métricas de leads",
+      "description": "Tasa de conversión: cuántos leads se convierten en reservas.",
+      "status": "backlog",
       "project": "analisis",
       "tags": [
         "metricas",
@@ -277,17 +292,17 @@
       "comments": [
         {
           "author": "Lucy (IA)",
-          "text": "\ud83d\udcca RESULTADOS:\n\n\u2022 Total leads: 4\n\u2022\ud83d\udd25 Calientes: 1\n\u2022\ud83c\udf21\ufe0f Tibios: 2\n\u2022\u2744\ufe0f Fr\u00edos: 1\n\u2022\ud83d\udcc8 Conversi\u00f3n: 25%\n\u2022\ud83d\udcb0 Reservas: 0\n\nPendiente: 4 leads requieren seguimiento",
+          "text": "📊 RESULTADOS:\n\n• Total leads: 4\n•🔥 Calientes: 1\n•🌡️ Tibios: 2\n•❄️ Fríos: 1\n•📈 Conversión: 25%\n•💰 Reservas: 0\n\nPendiente: 4 leads requieren seguimiento",
           "timestamp": "2026-03-15T01:30:00Z"
         }
       ],
       "createdAt": "2026-03-15T01:00:00Z",
-      "sortOrder": 0
+      "sortOrder": 2
     },
     {
       "id": "analisis_002",
-      "title": "\ud83c\udfe0 An\u00e1lisis de ocupaci\u00f3n",
-      "description": "Porcentaje de d\u00edas ocupados vs disponibles en el mes.",
+      "title": "🏠 Análisis de ocupación",
+      "description": "Porcentaje de días ocupados vs disponibles en el mes.",
       "status": "backlog",
       "project": "analisis",
       "tags": [
@@ -297,11 +312,12 @@
       "subtasks": [],
       "priority": "low",
       "comments": [],
-      "createdAt": "2026-03-15T01:00:00Z"
+      "createdAt": "2026-03-15T01:00:00Z",
+      "sortOrder": 1
     },
     {
       "id": "leads_activos",
-      "title": "\ud83d\udccb Leads activos actualmente",
+      "title": "📋 Leads activos actualmente",
       "description": "4 leads nuevos sincronizados con Notion. Revisar seguimiento.",
       "status": "backlog",
       "project": "operaciones",
@@ -312,11 +328,12 @@
       "subtasks": [],
       "priority": "high",
       "comments": [],
-      "createdAt": "2026-03-15T01:00:00Z"
+      "createdAt": "2026-03-15T01:00:00Z",
+      "sortOrder": 7
     },
     {
       "id": "reservas_pendientes",
-      "title": "\ud83d\udcdd Reservas confirmadas pendientes",
+      "title": "📝 Reservas confirmadas pendientes",
       "description": "0 reservas confirmadas actualmente.",
       "status": "backlog",
       "project": "operaciones",
@@ -327,52 +344,61 @@
       "subtasks": [],
       "priority": "high",
       "comments": [],
-      "createdAt": "2026-03-15T01:00:00Z"
+      "createdAt": "2026-03-15T01:00:00Z",
+      "sortOrder": 8
     }
   ],
   "projects": [
     {
       "id": "guides",
-      "name": "\ud83d\udcda Gu\u00edas",
+      "name": "📚 Guías",
       "color": "#10b981",
-      "icon": "\ud83d\udcda"
+      "icon": "📚"
     },
     {
       "id": "operaciones",
-      "name": "\ud83c\udfaf Operaciones",
+      "name": "🎯 Operaciones",
       "color": "#ef4444",
-      "icon": "\ud83c\udfaf"
+      "icon": "🎯"
     },
     {
       "id": "marketing",
-      "name": "\ud83d\udce3 Marketing",
+      "name": "📣 Marketing",
       "color": "#3b82f6",
-      "icon": "\ud83d\udce3"
+      "icon": "📣"
     },
     {
       "id": "finanzas",
-      "name": "\ud83d\udcb0 Finanzas",
+      "name": "💰 Finanzas",
       "color": "#10b981",
-      "icon": "\ud83d\udcb0"
+      "icon": "💰"
     },
     {
       "id": "desarrollo",
-      "name": "\ud83d\udd27 Desarrollo",
+      "name": "🔧 Desarrollo",
       "color": "#f59e0b",
-      "icon": "\ud83d\udd27"
+      "icon": "🔧"
     },
     {
       "id": "analisis",
-      "name": "\ud83d\udcca An\u00e1lisis",
+      "name": "📊 Análisis",
       "color": "#8b5cf6",
-      "icon": "\ud83d\udcca"
+      "icon": "📊"
     }
   ],
   "activities": [
     {
       "type": "moved",
       "actor": "junibox1987-star",
-      "task": "\ud83d\udcc8 Revisar m\u00e9tricas de leads",
+      "task": "📈 Revisar métricas de leads",
+      "from": "review",
+      "to": "backlog",
+      "time": "justo ahora"
+    },
+    {
+      "type": "moved",
+      "actor": "junibox1987-star",
+      "task": "📈 Revisar métricas de leads",
       "from": "backlog",
       "to": "in_progress",
       "time": "justo ahora"
@@ -380,7 +406,7 @@
     {
       "type": "moved",
       "actor": "junibox1987-star",
-      "task": "\ud83d\udcc8 Revisar m\u00e9tricas de leads",
+      "task": "📈 Revisar métricas de leads",
       "from": "in_progress",
       "to": "review",
       "time": "justo ahora"
@@ -388,7 +414,7 @@
     {
       "type": "moved",
       "actor": "junibox1987-star",
-      "task": "\ud83d\udcc8 Revisar m\u00e9tricas de leads",
+      "task": "📈 Revisar métricas de leads",
       "from": "backlog",
       "to": "in_progress",
       "time": "justo ahora"
@@ -400,5 +426,5 @@
       "time": "justo ahora"
     }
   ],
-  "lastUpdated": "2026-03-15T07:30:37.782Z"
+  "lastUpdated": "2026-03-15T07:33:00.907Z"
 }
