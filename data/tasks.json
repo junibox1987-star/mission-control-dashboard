@@ -4,7 +4,7 @@
       "id": "guide_onboarding",
       "title": "🚀 Guía de Inicio — Configura Mission Control",
       "description": "¡Bienvenido a Mission Control! Sigue estos pasos para completar tu configuración. Trabaja en cada subtarea en orden.\n\n**Consejo:** Haz clic en una subtarea para ver instrucciones detalladas. Márcate cuando termines.",
-      "status": "permanent",
+      "status": "scheduled",
       "project": "guides",
       "tags": [
         "guia",
@@ -60,7 +60,8 @@
           "timestamp": "2026-01-01T00:00:00Z"
         }
       ],
-      "createdAt": "2026-01-01T00:00:00Z"
+      "createdAt": "2026-01-01T00:00:00Z",
+      "sortOrder": 0
     },
     {
       "id": "guide_user",
@@ -361,6 +362,14 @@
   ],
   "activities": [
     {
+      "type": "moved",
+      "actor": "junibox1987-star",
+      "task": "🚀 Guía de Inicio — Configura Mission Control",
+      "from": "permanent",
+      "to": "scheduled",
+      "time": "justo ahora"
+    },
+    {
       "type": "archive",
       "actor": "junibox1987-star",
       "task": "Archived 2 tasks",
@@ -427,5 +436,5 @@
       "time": "justo ahora"
     }
   ],
-  "lastUpdated": "2026-03-15T07:08:21.543Z"
+  "lastUpdated": "2026-03-15T07:13:29.711Z"
 }
