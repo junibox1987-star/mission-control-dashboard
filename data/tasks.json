@@ -83,7 +83,7 @@
       "priority": "high",
       "comments": [],
       "createdAt": "2026-03-15T01:00:00Z",
-      "sortOrder": 0
+      "sortOrder": 1
     },
     {
       "id": "reserva_002",
@@ -226,7 +226,7 @@
         }
       ],
       "createdAt": "2026-03-15T01:00:00Z",
-      "sortOrder": 2
+      "sortOrder": 3
     },
     {
       "id": "finanzas_002",
@@ -421,7 +421,7 @@
         }
       ],
       "createdAt": "2026-03-15T02:05:00Z",
-      "sortOrder": 1
+      "sortOrder": 2
     },
     {
       "id": "task_1773564934819",
@@ -435,7 +435,7 @@
       "priority": "high",
       "createdAt": "2026-03-15T08:55:34.819Z",
       "status": "in_progress",
-      "sortOrder": 3,
+      "sortOrder": 4,
       "comments": [
         {
           "author": "Lucy (IA)",
@@ -667,5 +667,5 @@
       "time": "justo ahora"
     }
   ],
-  "lastUpdated": "2026-03-15T09:23:18.095Z"
+  "lastUpdated": "2026-03-15T09:23:46.637Z"
 }
