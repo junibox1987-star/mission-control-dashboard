@@ -2,8 +2,8 @@
   "tasks": [
     {
       "id": "guide_onboarding",
-      "title": "\ud83d\ude80 Gu\u00eda de Inicio \u2014 Configura Mission Control",
-      "description": "\u00a1Bienvenido a Mission Control! Sigue estos pasos para completar tu configuraci\u00f3n.",
+      "title": "🚀 Guía de Inicio — Configura Mission Control",
+      "description": "¡Bienvenido a Mission Control! Sigue estos pasos para completar tu configuración.",
       "status": "permanent",
       "project": "guides",
       "tags": [
@@ -31,7 +31,7 @@
       "comments": [
         {
           "author": "Lucy",
-          "text": "\u2705 Configuraci\u00f3n completada!",
+          "text": "✅ Configuración completada!",
           "timestamp": "2026-03-15T01:00:00Z"
         }
       ],
@@ -39,8 +39,8 @@
     },
     {
       "id": "lead_001",
-      "title": "\ud83c\udfaf Atender nuevo lead",
-      "description": "Responder consultas de potenciales hu\u00e9spedes que contactan por WhatsApp o Airbnb.",
+      "title": "🎯 Atender nuevo lead",
+      "description": "Responder consultas de potenciales huéspedes que contactan por WhatsApp o Airbnb.",
       "status": "backlog",
       "project": "operaciones",
       "tags": [
@@ -55,7 +55,7 @@
     },
     {
       "id": "lead_002",
-      "title": "\ud83d\udd25 Seguimiento a leads tibios",
+      "title": "🔥 Seguimiento a leads tibios",
       "description": "Contactar leads que no han respondido en 24 horas.",
       "status": "review",
       "project": "operaciones",
@@ -68,7 +68,7 @@
       "comments": [
         {
           "author": "Lucy (IA)",
-          "text": "\u2705 SEGUIMIENTO COMPLETADO\n\nLeads tibios (sin respuesta 24h):\n\u2022 Contactar por WhatsApp\n\u2022 Ofrecer descuento adicional\n\u2022 Resolver dudas",
+          "text": "✅ SEGUIMIENTO COMPLETADO\n\nLeads tibios (sin respuesta 24h):\n• Contactar por WhatsApp\n• Ofrecer descuento adicional\n• Resolver dudas",
           "timestamp": "2026-03-15T03:45:00Z"
         }
       ],
@@ -77,7 +77,7 @@
     },
     {
       "id": "reserva_001",
-      "title": "\ud83d\udcb0 Confirmar reservaci\u00f3n",
+      "title": "💰 Confirmar reservación",
       "description": "Proceso de cierre de venta: ofrecer descuento, dar datos bancarios, confirmar pago.",
       "status": "review",
       "project": "operaciones",
@@ -90,7 +90,7 @@
       "comments": [
         {
           "author": "Lucy (IA)",
-          "text": "\u2705 RESERVACI\u00d3N\n\n\u2022 Esperando confirmaci\u00f3n del lead\n\u2022 Datos bancarios listos\n\u2022 15% descuento aplicado",
+          "text": "✅ RESERVACIÓN\n\n• Esperando confirmación del lead\n• Datos bancarios listos\n• 15% descuento aplicado",
           "timestamp": "2026-03-15T03:45:00Z"
         }
       ],
@@ -99,7 +99,7 @@
     },
     {
       "id": "reserva_002",
-      "title": "\ud83e\uddf9 Coordinaci\u00f3n de limpieza",
+      "title": "🧹 Coordinación de limpieza",
       "description": "Programar limpieza post-checkout y verificar disponibilidad.",
       "status": "backlog",
       "project": "operaciones",
@@ -115,7 +115,7 @@
     },
     {
       "id": "operacion_001",
-      "title": "\ud83d\udcc5 Verificar disponibilidad",
+      "title": "📅 Verificar disponibilidad",
       "description": "Consultar calendario Airbnb para confirmar fechas solicitadas por el cliente.",
       "status": "backlog",
       "project": "operaciones",
@@ -131,8 +131,8 @@
     },
     {
       "id": "operacion_002",
-      "title": "\ud83d\udcb5 Actualizar precios de temporada",
-      "description": "Ajustar tarifas seg\u00fan temporada alta/baja, eventos especiales.",
+      "title": "💵 Actualizar precios de temporada",
+      "description": "Ajustar tarifas según temporada alta/baja, eventos especiales.",
       "status": "backlog",
       "project": "operaciones",
       "tags": [
@@ -147,8 +147,8 @@
     },
     {
       "id": "marketing_001",
-      "title": "\ud83d\udcf8 Enviar fotos de la propiedad",
-      "description": "Galer\u00eda personalizada al cliente seg\u00fan lo que pregunte (cocina, rec\u00e1maras, patio).",
+      "title": "📸 Enviar fotos de la propiedad",
+      "description": "Galería personalizada al cliente según lo que pregunte (cocina, recámaras, patio).",
       "status": "backlog",
       "project": "marketing",
       "tags": [
@@ -163,7 +163,7 @@
     },
     {
       "id": "marketing_002",
-      "title": "\ud83d\udccd Enviar ubicaci\u00f3n",
+      "title": "📍 Enviar ubicación",
       "description": "Google Maps y direcciones desde la propiedad a la playa, restaurantes.",
       "status": "done",
       "project": "operaciones",
@@ -182,7 +182,7 @@
       "comments": [
         {
           "author": "Lucy (IA)",
-          "text": "\ud83d\udccd INFORMACI\u00d3N DE UBICACI\u00d3N GENERADA:\n\n\ud83d\udccc Direcci\u00f3n: Playa Miramar, Cd. Madero, Tamaulipas\n\n\ud83d\uddfa\ufe0f Google Maps: https://goo.gl/maps/ejemplo123\n\n\ud83c\udfd6\ufe0f Distancias:\n\u2022 Playa Miramar: 5 min (500m)\n\u2022 Centro Cd. Madero: 15 min\n\u2022 Restaurantes: 5-10 min\n\u2022 OXXO: 5 min\n\n\ud83c\udd7f\ufe0f Estacionamiento: Garaje techado\n\n\ud83d\udccd Coordenadas: 22.3821\u00b0 N, -97.8345\u00b0 W\n\nLa ubicaci\u00f3n est\u00e1 lista para enviar a los leads.",
+          "text": "📍 INFORMACIÓN DE UBICACIÓN GENERADA:\n\n📌 Dirección: Playa Miramar, Cd. Madero, Tamaulipas\n\n🗺️ Google Maps: https://goo.gl/maps/ejemplo123\n\n🏖️ Distancias:\n• Playa Miramar: 5 min (500m)\n• Centro Cd. Madero: 15 min\n• Restaurantes: 5-10 min\n• OXXO: 5 min\n\n🅿️ Estacionamiento: Garaje techado\n\n📍 Coordenadas: 22.3821° N, -97.8345° W\n\nLa ubicación está lista para enviar a los leads.",
           "timestamp": "2026-03-15T02:00:00Z"
         }
       ],
@@ -192,8 +192,8 @@
     },
     {
       "id": "marketing_003",
-      "title": "\u2b50 Gestionar rese\u00f1as",
-      "description": "Responder a comentarios y rese\u00f1as en Airbnb.",
+      "title": "⭐ Gestionar reseñas",
+      "description": "Responder a comentarios y reseñas en Airbnb.",
       "status": "backlog",
       "project": "marketing",
       "tags": [
@@ -208,8 +208,8 @@
     },
     {
       "id": "finanzas_001",
-      "title": "\ud83e\uddfe Generar recibo de pago",
-      "description": "Crear PDF con datos de la reservaci\u00f3n: nombre, fechas, monto, datos bancarios. poner logo de la alojamiento hospedaje castillo",
+      "title": "🧾 Generar recibo de pago",
+      "description": "Crear PDF con datos de la reservación: nombre, fechas, monto, datos bancarios. poner logo de la alojamiento hospedaje castillopedir el nombre de la persona, yde donde es, y que cuando se entregue la casa debera de presentar una credencial del ine que sera tomada una copia para registro de clientes, y se firmara una especie de contrato al entregar la casa",
       "status": "in_progress",
       "project": "guides",
       "tags": [
@@ -221,7 +221,7 @@
       "comments": [
         {
           "author": "Lucy (IA)",
-          "text": "\ud83e\uddfe RECIBO DE PAGO GENERADO\n\n========================================\n\n\ud83d\udccb DATOS:\n\u2022 Casa Beach Miramar\n\u2022 Listing ID: 52972969\n\n\ud83d\udcb0 TARIFAS:\n\u2022 $1,500 MXN por noche\n\u2022 $350 MXN limpieza\n\u2022 15% descuento pago directo\n\n\ud83d\udcdd NOTAS:\n\u2022 Check-in: 3:00 PM\n\u2022 Check-out: 11:00 AM\n\u2022 Estacionamiento incluido\n========================================",
+          "text": "🧾 RECIBO DE PAGO GENERADO\n\n========================================\n\n📋 DATOS:\n• Casa Beach Miramar\n• Listing ID: 52972969\n\n💰 TARIFAS:\n• $1,500 MXN por noche\n• $350 MXN limpieza\n• 15% descuento pago directo\n\n📝 NOTAS:\n• Check-in: 3:00 PM\n• Check-out: 11:00 AM\n• Estacionamiento incluido\n========================================",
           "timestamp": "2026-03-15T02:45:00Z"
         },
         {
@@ -242,7 +242,7 @@
     },
     {
       "id": "finanzas_002",
-      "title": "\ud83d\udcb3 Seguimiento de cobros",
+      "title": "💳 Seguimiento de cobros",
       "description": "Confirmar que el pago fue realizado y verificar en estado de cuenta.",
       "status": "backlog",
       "project": "finanzas",
@@ -258,8 +258,8 @@
     },
     {
       "id": "finanzas_003",
-      "title": "\ud83d\udcca Reporte mensual de ingresos",
-      "description": "Resumen de ingresos del mes: reservaciones, ocupaci\u00f3n, promedio nightly.pedir el nombre de la persona, yde donde es, y que cuando se entregue la casa debera de presentar una credencial del ine que sera tomada una copia para registro de clientes, y se firmara una especie de contrato al entregar la casa",
+      "title": "📊 Reporte mensual de ingresos",
+      "description": "Resumen de ingresos del mes: reservaciones, ocupación, promedio nightly.pedir el nombre de la persona, yde donde es, y que cuando se entregue la casa debera de presentar una credencial del ine que sera tomada una copia para registro de clientes, y se firmara una especie de contrato al entregar la casa",
       "status": "in_progress",
       "project": "finanzas",
       "tags": [
@@ -271,7 +271,7 @@
       "comments": [
         {
           "author": "Lucy (IA)",
-          "text": "\ud83d\udcca REPORTE MENSUAL DE INGRESOS\n\n\ud83c\udfe0 Casa Beach Miramar\n\ud83d\udcc5 Per\u00edodo: Marzo 2026\n\n\ud83d\udcb0 RESUMEN:\n\u2022 Leads nuevos: 4\n\u2022 Leads calientes: 1\n\u2022 Reservas confirmadas: 0\n\u2022 Tasa conversi\u00f3n: 25%\n\n\ud83d\udcc8 M\u00c9TRICAS:\n\u2022 Rating: 4.79/5 (43 rese\u00f1as)\n\u2022 Ubicaci\u00f3n: Playa Miramar, Cd. Madero\n\n\ud83d\udcb5 NOTAS:\n\u2022 Precio: $1,500 MXN/noche\n\u2022 Limpieza: $350 MXN\n\u2022 15% descuento pago directo\n\n\u26a0\ufe0f ACCI\u00d3N REQUERIDA:\n\u2022 Seguimiento a leads tibios\n\u2022 Conversi\u00f3n de leads calientes",
+          "text": "📊 REPORTE MENSUAL DE INGRESOS\n\n🏠 Casa Beach Miramar\n📅 Período: Marzo 2026\n\n💰 RESUMEN:\n• Leads nuevos: 4\n• Leads calientes: 1\n• Reservas confirmadas: 0\n• Tasa conversión: 25%\n\n📈 MÉTRICAS:\n• Rating: 4.79/5 (43 reseñas)\n• Ubicación: Playa Miramar, Cd. Madero\n\n💵 NOTAS:\n• Precio: $1,500 MXN/noche\n• Limpieza: $350 MXN\n• 15% descuento pago directo\n\n⚠️ ACCIÓN REQUERIDA:\n• Seguimiento a leads tibios\n• Conversión de leads calientes",
           "timestamp": "2026-03-15T03:16:38.003112Z"
         }
       ],
@@ -280,8 +280,8 @@
     },
     {
       "id": "desarrollo_001",
-      "title": "\ud83d\udd27 Actualizar base de conocimientos",
-      "description": "Agregar nueva informaci\u00f3n de la propiedad, precios, amenidades.",
+      "title": "🔧 Actualizar base de conocimientos",
+      "description": "Agregar nueva información de la propiedad, precios, amenidades.",
       "status": "backlog",
       "project": "desarrollo",
       "tags": [
@@ -296,8 +296,8 @@
     },
     {
       "id": "desarrollo_002",
-      "title": "\ud83d\uddbc\ufe0f Agregar fotos nuevas",
-      "description": "Actualizar galer\u00eda con fotos de mejoras o nuevas \u00e1reas.",
+      "title": "🖼️ Agregar fotos nuevas",
+      "description": "Actualizar galería con fotos de mejoras o nuevas áreas.",
       "status": "backlog",
       "project": "desarrollo",
       "tags": [
@@ -312,8 +312,8 @@
     },
     {
       "id": "desarrollo_003",
-      "title": "\ud83e\uddea Testing de funcionalidades",
-      "description": "Verificar que todos los scripts y flows est\u00e9n funcionando correctamente.",
+      "title": "🧪 Testing de funcionalidades",
+      "description": "Verificar que todos los scripts y flows estén funcionando correctamente.",
       "status": "backlog",
       "project": "desarrollo",
       "tags": [
@@ -328,8 +328,8 @@
     },
     {
       "id": "analisis_001",
-      "title": "\ud83d\udcc8 Revisar m\u00e9tricas de leads",
-      "description": "Tasa de conversi\u00f3n: cu\u00e1ntos leads se convierten en reservas.",
+      "title": "📈 Revisar métricas de leads",
+      "description": "Tasa de conversión: cuántos leads se convierten en reservas.",
       "status": "backlog",
       "project": "analisis",
       "tags": [
@@ -341,7 +341,7 @@
       "comments": [
         {
           "author": "Lucy (IA)",
-          "text": "\ud83d\udcca RESULTADOS:\n\n\u2022 Total leads: 4\n\u2022\ud83d\udd25 Calientes: 1\n\u2022\ud83c\udf21\ufe0f Tibios: 2\n\u2022\u2744\ufe0f Fr\u00edos: 1\n\u2022\ud83d\udcc8 Conversi\u00f3n: 25%\n\u2022\ud83d\udcb0 Reservas: 0\n\nPendiente: 4 leads requieren seguimiento",
+          "text": "📊 RESULTADOS:\n\n• Total leads: 4\n•🔥 Calientes: 1\n•🌡️ Tibios: 2\n•❄️ Fríos: 1\n•📈 Conversión: 25%\n•💰 Reservas: 0\n\nPendiente: 4 leads requieren seguimiento",
           "timestamp": "2026-03-15T01:30:00Z"
         }
       ],
@@ -350,8 +350,8 @@
     },
     {
       "id": "analisis_002",
-      "title": "\ud83c\udfe0 An\u00e1lisis de ocupaci\u00f3n",
-      "description": "Porcentaje de d\u00edas ocupados vs disponibles en el mes.",
+      "title": "🏠 Análisis de ocupación",
+      "description": "Porcentaje de días ocupados vs disponibles en el mes.",
       "status": "backlog",
       "project": "analisis",
       "tags": [
@@ -366,7 +366,7 @@
     },
     {
       "id": "leads_activos",
-      "title": "\ud83d\udccb Leads activos actualmente",
+      "title": "📋 Leads activos actualmente",
       "description": "4 leads nuevos sincronizados con Notion. Revisar seguimiento.",
       "status": "backlog",
       "project": "operaciones",
@@ -382,7 +382,7 @@
     },
     {
       "id": "reservas_pendientes",
-      "title": "\ud83d\udcdd Reservas confirmadas pendientes",
+      "title": "📝 Reservas confirmadas pendientes",
       "description": "0 reservas confirmadas actualmente.",
       "status": "backlog",
       "project": "operaciones",
@@ -398,8 +398,8 @@
     },
     {
       "id": "config_001",
-      "title": "\ud83d\udd27 Configurar Tailscale para notificaciones auto",
-      "description": "Habilitar notificaciones autom\u00e1ticas en Mission Control.\n\nOpciones:\n1. Arreglar Tailscale\n2. Configurar GitHub Webhooks\n\nPriority: Alta para automatizaci\u00f3n total.\n\ncontinuar con webhooks",
+      "title": "🔧 Configurar Tailscale para notificaciones auto",
+      "description": "Habilitar notificaciones automáticas en Mission Control.\n\nOpciones:\n1. Arreglar Tailscale\n2. Configurar GitHub Webhooks\n\nPriority: Alta para automatización total.\n\ncontinuar con webhooks",
       "status": "in_progress",
       "project": "guides",
       "tags": [
@@ -420,7 +420,7 @@
         },
         {
           "id": "sub_003",
-          "title": "Probar notificaciones autom\u00e1ticas",
+          "title": "Probar notificaciones automáticas",
           "done": false
         }
       ],
@@ -428,7 +428,7 @@
       "comments": [
         {
           "author": "Lucy (IA)",
-          "text": "\u2705 CONFIGURACI\u00d3N COMPLETADA\n\n\u2022 Tailscale Funnel: Activo\n\u2022 URL: https://imacs-imac.tail5303d2.ts.net/\n\u2022 Webhook: Configurado en GitHub\n\u2022 Monitor autom\u00e1tico: Corriendo (verifica cada 30 seg)\n\n\ud83c\udfaf Sistema 100% operativo!",
+          "text": "✅ CONFIGURACIÓN COMPLETADA\n\n• Tailscale Funnel: Activo\n• URL: https://imacs-imac.tail5303d2.ts.net/\n• Webhook: Configurado en GitHub\n• Monitor automático: Corriendo (verifica cada 30 seg)\n\n🎯 Sistema 100% operativo!",
           "timestamp": "2026-03-15T03:00:00Z"
         }
       ],
@@ -451,7 +451,7 @@
       "comments": [
         {
           "author": "Lucy (IA)",
-          "text": "\u2705 CONFIGURACI\u00d3N APLICADA\n\n\ud83c\udf24\ufe0f Clima: Incluido en mis respuestas\n\ud83c\udfad Narrativa de vendedor:\n- Tono profesional cercano\n- Modismos del Noreste\n- Enfoque en beneficios\n\n\ud83d\udcdd Config: ~/memory/configuracion_vendedor.md",
+          "text": "✅ CONFIGURACIÓN APLICADA\n\n🌤️ Clima: Incluido en mis respuestas\n🎭 Narrativa de vendedor:\n- Tono profesional cercano\n- Modismos del Noreste\n- Enfoque en beneficios\n\n📝 Config: ~/memory/configuracion_vendedor.md",
           "timestamp": "2026-03-15T03:05:00Z"
         }
       ]
@@ -460,46 +460,46 @@
   "projects": [
     {
       "id": "guides",
-      "name": "\ud83d\udcda Gu\u00edas",
+      "name": "📚 Guías",
       "color": "#10b981",
-      "icon": "\ud83d\udcda"
+      "icon": "📚"
     },
     {
       "id": "operaciones",
-      "name": "\ud83c\udfaf Operaciones",
+      "name": "🎯 Operaciones",
       "color": "#ef4444",
-      "icon": "\ud83c\udfaf"
+      "icon": "🎯"
     },
     {
       "id": "marketing",
-      "name": "\ud83d\udce3 Marketing",
+      "name": "📣 Marketing",
       "color": "#3b82f6",
-      "icon": "\ud83d\udce3"
+      "icon": "📣"
     },
     {
       "id": "finanzas",
-      "name": "\ud83d\udcb0 Finanzas",
+      "name": "💰 Finanzas",
       "color": "#10b981",
-      "icon": "\ud83d\udcb0"
+      "icon": "💰"
     },
     {
       "id": "desarrollo",
-      "name": "\ud83d\udd27 Desarrollo",
+      "name": "🔧 Desarrollo",
       "color": "#f59e0b",
-      "icon": "\ud83d\udd27"
+      "icon": "🔧"
     },
     {
       "id": "analisis",
-      "name": "\ud83d\udcca An\u00e1lisis",
+      "name": "📊 Análisis",
       "color": "#8b5cf6",
-      "icon": "\ud83d\udcca"
+      "icon": "📊"
     }
   ],
   "activities": [
     {
       "type": "moved",
       "actor": "junibox1987-star",
-      "task": "\ud83d\udcb0 Confirmar reservaci\u00f3n",
+      "task": "💰 Confirmar reservación",
       "from": "backlog",
       "to": "in_progress",
       "time": "justo ahora"
@@ -507,7 +507,7 @@
     {
       "type": "moved",
       "actor": "junibox1987-star",
-      "task": "\ud83d\udd25 Seguimiento a leads tibios",
+      "task": "🔥 Seguimiento a leads tibios",
       "from": "backlog",
       "to": "in_progress",
       "time": "justo ahora"
@@ -515,7 +515,7 @@
     {
       "type": "moved",
       "actor": "junibox1987-star",
-      "task": "\ud83d\udcca Reporte mensual de ingresos",
+      "task": "📊 Reporte mensual de ingresos",
       "from": "review",
       "to": "in_progress",
       "time": "justo ahora"
@@ -523,7 +523,7 @@
     {
       "type": "moved",
       "actor": "junibox1987-star",
-      "task": "\ud83d\udccd Enviar ubicaci\u00f3n",
+      "task": "📍 Enviar ubicación",
       "from": "review",
       "to": "done",
       "time": "justo ahora"
@@ -531,7 +531,7 @@
     {
       "type": "moved",
       "actor": "junibox1987-star",
-      "task": "\ud83d\udcca Reporte mensual de ingresos",
+      "task": "📊 Reporte mensual de ingresos",
       "from": "backlog",
       "to": "in_progress",
       "time": "justo ahora"
@@ -539,7 +539,7 @@
     {
       "type": "moved",
       "actor": "junibox1987-star",
-      "task": "\ud83d\udd27 Configurar Tailscale para notificaciones auto",
+      "task": "🔧 Configurar Tailscale para notificaciones auto",
       "from": "review",
       "to": "in_progress",
       "time": "justo ahora"
@@ -579,7 +579,7 @@
     {
       "type": "moved",
       "actor": "junibox1987-star",
-      "task": "\ud83e\uddfe Generar recibo de pago",
+      "task": "🧾 Generar recibo de pago",
       "from": "review",
       "to": "in_progress",
       "time": "justo ahora"
@@ -587,7 +587,7 @@
     {
       "type": "moved",
       "actor": "junibox1987-star",
-      "task": "\ud83e\uddfe Generar recibo de pago",
+      "task": "🧾 Generar recibo de pago",
       "from": "in_progress",
       "to": "review",
       "time": "justo ahora"
@@ -595,7 +595,7 @@
     {
       "type": "moved",
       "actor": "junibox1987-star",
-      "task": "\ud83e\uddfe Generar recibo de pago",
+      "task": "🧾 Generar recibo de pago",
       "from": "review",
       "to": "in_progress",
       "time": "justo ahora"
@@ -603,7 +603,7 @@
     {
       "type": "moved",
       "actor": "junibox1987-star",
-      "task": "\ud83e\uddfe Generar recibo de pago",
+      "task": "🧾 Generar recibo de pago",
       "from": "backlog",
       "to": "in_progress",
       "time": "justo ahora"
@@ -611,7 +611,7 @@
     {
       "type": "moved",
       "actor": "junibox1987-star",
-      "task": "\ud83d\udd27 Configurar Tailscale para notificaciones auto",
+      "task": "🔧 Configurar Tailscale para notificaciones auto",
       "from": "backlog",
       "to": "in_progress",
       "time": "justo ahora"
@@ -619,7 +619,7 @@
     {
       "type": "moved",
       "actor": "junibox1987-star",
-      "task": "\ud83d\udccd Enviar ubicaci\u00f3n",
+      "task": "📍 Enviar ubicación",
       "from": "backlog",
       "to": "in_progress",
       "time": "justo ahora"
@@ -627,7 +627,7 @@
     {
       "type": "moved",
       "actor": "junibox1987-star",
-      "task": "\ud83c\udfe0 An\u00e1lisis de ocupaci\u00f3n",
+      "task": "🏠 Análisis de ocupación",
       "from": "in_progress",
       "to": "backlog",
       "time": "justo ahora"
@@ -635,7 +635,7 @@
     {
       "type": "moved",
       "actor": "junibox1987-star",
-      "task": "\ud83c\udfe0 An\u00e1lisis de ocupaci\u00f3n",
+      "task": "🏠 Análisis de ocupación",
       "from": "backlog",
       "to": "in_progress",
       "time": "justo ahora"
@@ -643,7 +643,7 @@
     {
       "type": "moved",
       "actor": "junibox1987-star",
-      "task": "\ud83d\udcc8 Revisar m\u00e9tricas de leads",
+      "task": "📈 Revisar métricas de leads",
       "from": "review",
       "to": "backlog",
       "time": "justo ahora"
@@ -651,7 +651,7 @@
     {
       "type": "moved",
       "actor": "junibox1987-star",
-      "task": "\ud83d\udcc8 Revisar m\u00e9tricas de leads",
+      "task": "📈 Revisar métricas de leads",
       "from": "backlog",
       "to": "in_progress",
       "time": "justo ahora"
@@ -659,7 +659,7 @@
     {
       "type": "moved",
       "actor": "junibox1987-star",
-      "task": "\ud83d\udcc8 Revisar m\u00e9tricas de leads",
+      "task": "📈 Revisar métricas de leads",
       "from": "in_progress",
       "to": "review",
       "time": "justo ahora"
@@ -667,7 +667,7 @@
     {
       "type": "moved",
       "actor": "junibox1987-star",
-      "task": "\ud83d\udcc8 Revisar m\u00e9tricas de leads",
+      "task": "📈 Revisar métricas de leads",
       "from": "backlog",
       "to": "in_progress",
       "time": "justo ahora"
@@ -679,5 +679,5 @@
       "time": "justo ahora"
     }
   ],
-  "lastUpdated": "2026-03-15T09:24:07.341Z"
+  "lastUpdated": "2026-03-15T19:01:09.273Z"
 }
