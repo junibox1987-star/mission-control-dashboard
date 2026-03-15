@@ -247,7 +247,7 @@
       "id": "finanzas_003",
       "title": "📊 Reporte mensual de ingresos",
       "description": "Resumen de ingresos del mes: reservaciones, ocupación, promedio nightly.",
-      "status": "backlog",
+      "status": "in_progress",
       "project": "finanzas",
       "tags": [
         "reporte",
@@ -480,6 +480,14 @@
     {
       "type": "moved",
       "actor": "junibox1987-star",
+      "task": "📊 Reporte mensual de ingresos",
+      "from": "backlog",
+      "to": "in_progress",
+      "time": "justo ahora"
+    },
+    {
+      "type": "moved",
+      "actor": "junibox1987-star",
       "task": "🔧 Configurar Tailscale para notificaciones auto",
       "from": "review",
       "to": "in_progress",
@@ -620,5 +628,5 @@
       "time": "justo ahora"
     }
   ],
-  "lastUpdated": "2026-03-15T09:09:22.665Z"
+  "lastUpdated": "2026-03-15T09:10:19.216Z"
 }
