@@ -67,7 +67,7 @@
       "id": "guide_user",
       "title": "📖 Guía de Usuario — Cómo usar Mission Control",
       "description": "Aprende a usar Mission Control de manera efectiva. ¡Tanto tú como la IA pueden gestionar tareas!\n\n**Dos formas de gestionar tareas:**\n• 👤 **Tú** — Usas la interfaz web (arrastrar y soltar, botones, formularios)\n• 🤖 **La IA** — Usa scripts o edita tasks.json directamente",
-      "status": "permanent",
+      "status": "scheduled",
       "project": "guides",
       "tags": [
         "guia",
@@ -153,7 +153,8 @@
           "timestamp": "2026-01-01T00:00:00Z"
         }
       ],
-      "createdAt": "2026-01-01T00:00:01Z"
+      "createdAt": "2026-01-01T00:00:01Z",
+      "sortOrder": 0
     },
     {
       "id": "task_example",
@@ -364,6 +365,14 @@
     {
       "type": "moved",
       "actor": "junibox1987-star",
+      "task": "📖 Guía de Usuario — Cómo usar Mission Control",
+      "from": "permanent",
+      "to": "scheduled",
+      "time": "justo ahora"
+    },
+    {
+      "type": "moved",
+      "actor": "junibox1987-star",
       "task": "🚀 Guía de Inicio — Configura Mission Control",
       "from": "permanent",
       "to": "scheduled",
@@ -436,5 +445,5 @@
       "time": "justo ahora"
     }
   ],
-  "lastUpdated": "2026-03-15T07:13:29.711Z"
+  "lastUpdated": "2026-03-15T07:13:35.529Z"
 }
