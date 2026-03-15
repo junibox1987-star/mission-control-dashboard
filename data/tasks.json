@@ -303,7 +303,7 @@
       "id": "analisis_002",
       "title": "🏠 Análisis de ocupación",
       "description": "Porcentaje de días ocupados vs disponibles en el mes.",
-      "status": "backlog",
+      "status": "in_progress",
       "project": "analisis",
       "tags": [
         "ocupacion",
@@ -313,7 +313,7 @@
       "priority": "low",
       "comments": [],
       "createdAt": "2026-03-15T01:00:00Z",
-      "sortOrder": 1
+      "sortOrder": 0
     },
     {
       "id": "leads_activos",
@@ -390,6 +390,14 @@
     {
       "type": "moved",
       "actor": "junibox1987-star",
+      "task": "🏠 Análisis de ocupación",
+      "from": "backlog",
+      "to": "in_progress",
+      "time": "justo ahora"
+    },
+    {
+      "type": "moved",
+      "actor": "junibox1987-star",
       "task": "📈 Revisar métricas de leads",
       "from": "review",
       "to": "backlog",
@@ -426,5 +434,5 @@
       "time": "justo ahora"
     }
   ],
-  "lastUpdated": "2026-03-15T07:33:00.907Z"
+  "lastUpdated": "2026-03-15T07:33:05.391Z"
 }
