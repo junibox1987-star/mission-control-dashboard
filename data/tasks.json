@@ -159,7 +159,13 @@
         "ubicacion",
         "marketing"
       ],
-      "subtasks": [],
+      "subtasks": [
+        {
+          "id": "sub_1773560135951",
+          "title": "buscar en las guias, que cosas hay cercas buscar en las guias de airbnb",
+          "done": false
+        }
+      ],
       "priority": "medium",
       "comments": [],
       "createdAt": "2026-03-15T01:00:00Z",
