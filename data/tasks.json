@@ -6,14 +6,35 @@
       "description": "¡Bienvenido a Mission Control! Sigue estos pasos para completar tu configuración.",
       "status": "permanent",
       "project": "guides",
-      "tags": ["guia", "setup"],
+      "tags": [
+        "guia",
+        "setup"
+      ],
       "subtasks": [
-        {"id": "sub_001", "title": "1. GitHub Pages habilitado", "done": true},
-        {"id": "sub_002", "title": "2. Token de GitHub configurado", "done": true},
-        {"id": "sub_003", "title": "3. Dashboard conectado", "done": true}
+        {
+          "id": "sub_001",
+          "title": "1. GitHub Pages habilitado",
+          "done": true
+        },
+        {
+          "id": "sub_002",
+          "title": "2. Token de GitHub configurado",
+          "done": true
+        },
+        {
+          "id": "sub_003",
+          "title": "3. Dashboard conectado",
+          "done": true
+        }
       ],
       "priority": "high",
-      "comments": [{"author": "Lucy", "text": "✅ Configuración completada!", "timestamp": "2026-03-15T01:00:00Z"}],
+      "comments": [
+        {
+          "author": "Lucy",
+          "text": "✅ Configuración completada!",
+          "timestamp": "2026-03-15T01:00:00Z"
+        }
+      ],
       "createdAt": "2026-01-01T00:00:00Z"
     },
     {
@@ -22,7 +43,10 @@
       "description": "Responder consultas de potenciales huéspedes que contactan por WhatsApp o Airbnb.",
       "status": "backlog",
       "project": "operaciones",
-      "tags": ["lead", "cliente"],
+      "tags": [
+        "lead",
+        "cliente"
+      ],
       "subtasks": [],
       "priority": "high",
       "comments": [],
@@ -34,7 +58,10 @@
       "description": "Contactar leads que no han respondido en 24 horas.",
       "status": "backlog",
       "project": "operaciones",
-      "tags": ["lead", "seguimiento"],
+      "tags": [
+        "lead",
+        "seguimiento"
+      ],
       "subtasks": [],
       "priority": "high",
       "comments": [],
@@ -46,7 +73,10 @@
       "description": "Proceso de cierre de venta: ofrecer descuento, dar datos bancarios, confirmar pago.",
       "status": "backlog",
       "project": "operaciones",
-      "tags": ["reserva", "venta"],
+      "tags": [
+        "reserva",
+        "venta"
+      ],
       "subtasks": [],
       "priority": "high",
       "comments": [],
@@ -58,7 +88,10 @@
       "description": "Programar limpieza post-checkout y verificar disponibilidad.",
       "status": "backlog",
       "project": "operaciones",
-      "tags": ["limpieza", "operacion"],
+      "tags": [
+        "limpieza",
+        "operacion"
+      ],
       "subtasks": [],
       "priority": "medium",
       "comments": [],
@@ -70,7 +103,10 @@
       "description": "Consultar calendario Airbnb para confirmar fechas solicitadas por el cliente.",
       "status": "backlog",
       "project": "operaciones",
-      "tags": ["disponibilidad", "calendario"],
+      "tags": [
+        "disponibilidad",
+        "calendario"
+      ],
       "subtasks": [],
       "priority": "high",
       "comments": [],
@@ -82,7 +118,10 @@
       "description": "Ajustar tarifas según temporada alta/baja, eventos especiales.",
       "status": "backlog",
       "project": "operaciones",
-      "tags": ["precios", "temporada"],
+      "tags": [
+        "precios",
+        "temporada"
+      ],
       "subtasks": [],
       "priority": "medium",
       "comments": [],
@@ -94,7 +133,10 @@
       "description": "Galería personalizada al cliente según lo que pregunte (cocina, recámaras, patio).",
       "status": "backlog",
       "project": "marketing",
-      "tags": ["fotos", "marketing"],
+      "tags": [
+        "fotos",
+        "marketing"
+      ],
       "subtasks": [],
       "priority": "high",
       "comments": [],
@@ -106,7 +148,10 @@
       "description": "Google Maps y direcciones desde la propiedad a la playa, restaurantes.",
       "status": "backlog",
       "project": "marketing",
-      "tags": ["ubicacion", "marketing"],
+      "tags": [
+        "ubicacion",
+        "marketing"
+      ],
       "subtasks": [],
       "priority": "medium",
       "comments": [],
@@ -118,7 +163,10 @@
       "description": "Responder a comentarios y reseñas en Airbnb.",
       "status": "backlog",
       "project": "marketing",
-      "tags": ["resenas", "reputacion"],
+      "tags": [
+        "resenas",
+        "reputacion"
+      ],
       "subtasks": [],
       "priority": "medium",
       "comments": [],
@@ -130,7 +178,10 @@
       "description": "Crear PDF con datos de la reservación: nombre, fechas, monto, datos bancarios.",
       "status": "backlog",
       "project": "finanzas",
-      "tags": ["recibo", "pago"],
+      "tags": [
+        "recibo",
+        "pago"
+      ],
       "subtasks": [],
       "priority": "high",
       "comments": [],
@@ -142,7 +193,10 @@
       "description": "Confirmar que el pago fue realizado y verificar en estado de cuenta.",
       "status": "backlog",
       "project": "finanzas",
-      "tags": ["cobro", "pago"],
+      "tags": [
+        "cobro",
+        "pago"
+      ],
       "subtasks": [],
       "priority": "high",
       "comments": [],
@@ -154,7 +208,10 @@
       "description": "Resumen de ingresos del mes: reservaciones, ocupación, promedio nightly.",
       "status": "backlog",
       "project": "finanzas",
-      "tags": ["reporte", "finanzas"],
+      "tags": [
+        "reporte",
+        "finanzas"
+      ],
       "subtasks": [],
       "priority": "low",
       "comments": [],
@@ -166,7 +223,10 @@
       "description": "Agregar nueva información de la propiedad, precios, amenidades.",
       "status": "backlog",
       "project": "desarrollo",
-      "tags": ["knowledge", "base"],
+      "tags": [
+        "knowledge",
+        "base"
+      ],
       "subtasks": [],
       "priority": "medium",
       "comments": [],
@@ -178,7 +238,10 @@
       "description": "Actualizar galería con fotos de mejoras o nuevas áreas.",
       "status": "backlog",
       "project": "desarrollo",
-      "tags": ["fotos", "actualizacion"],
+      "tags": [
+        "fotos",
+        "actualizacion"
+      ],
       "subtasks": [],
       "priority": "medium",
       "comments": [],
@@ -190,7 +253,10 @@
       "description": "Verificar que todos los scripts y flows estén funcionando correctamente.",
       "status": "backlog",
       "project": "desarrollo",
-      "tags": ["testing", "QA"],
+      "tags": [
+        "testing",
+        "QA"
+      ],
       "subtasks": [],
       "priority": "medium",
       "comments": [],
@@ -200,13 +266,17 @@
       "id": "analisis_001",
       "title": "📈 Revisar métricas de leads",
       "description": "Tasa de conversión: cuántos leads se convierten en reservas.",
-      "status": "backlog",
+      "status": "in_progress",
       "project": "analisis",
-      "tags": ["metricas", "analisis"],
+      "tags": [
+        "metricas",
+        "analisis"
+      ],
       "subtasks": [],
       "priority": "low",
       "comments": [],
-      "createdAt": "2026-03-15T01:00:00Z"
+      "createdAt": "2026-03-15T01:00:00Z",
+      "sortOrder": 0
     },
     {
       "id": "analisis_002",
@@ -214,7 +284,10 @@
       "description": "Porcentaje de días ocupados vs disponibles en el mes.",
       "status": "backlog",
       "project": "analisis",
-      "tags": ["ocupacion", "analisis"],
+      "tags": [
+        "ocupacion",
+        "analisis"
+      ],
       "subtasks": [],
       "priority": "low",
       "comments": [],
@@ -226,7 +299,10 @@
       "description": "4 leads nuevos sincronizados con Notion. Revisar seguimiento.",
       "status": "backlog",
       "project": "operaciones",
-      "tags": ["lead", "actual"],
+      "tags": [
+        "lead",
+        "actual"
+      ],
       "subtasks": [],
       "priority": "high",
       "comments": [],
@@ -238,7 +314,10 @@
       "description": "0 reservas confirmadas actualmente.",
       "status": "backlog",
       "project": "operaciones",
-      "tags": ["reserva", "pendiente"],
+      "tags": [
+        "reserva",
+        "pendiente"
+      ],
       "subtasks": [],
       "priority": "high",
       "comments": [],
@@ -246,15 +325,58 @@
     }
   ],
   "projects": [
-    {"id": "guides", "name": "📚 Guías", "color": "#10b981", "icon": "📚"},
-    {"id": "operaciones", "name": "🎯 Operaciones", "color": "#ef4444", "icon": "🎯"},
-    {"id": "marketing", "name": "📣 Marketing", "color": "#3b82f6", "icon": "📣"},
-    {"id": "finanzas", "name": "💰 Finanzas", "color": "#10b981", "icon": "💰"},
-    {"id": "desarrollo", "name": "🔧 Desarrollo", "color": "#f59e0b", "icon": "🔧"},
-    {"id": "analisis", "name": "📊 Análisis", "color": "#8b5cf6", "icon": "📊"}
+    {
+      "id": "guides",
+      "name": "📚 Guías",
+      "color": "#10b981",
+      "icon": "📚"
+    },
+    {
+      "id": "operaciones",
+      "name": "🎯 Operaciones",
+      "color": "#ef4444",
+      "icon": "🎯"
+    },
+    {
+      "id": "marketing",
+      "name": "📣 Marketing",
+      "color": "#3b82f6",
+      "icon": "📣"
+    },
+    {
+      "id": "finanzas",
+      "name": "💰 Finanzas",
+      "color": "#10b981",
+      "icon": "💰"
+    },
+    {
+      "id": "desarrollo",
+      "name": "🔧 Desarrollo",
+      "color": "#f59e0b",
+      "icon": "🔧"
+    },
+    {
+      "id": "analisis",
+      "name": "📊 Análisis",
+      "color": "#8b5cf6",
+      "icon": "📊"
+    }
   ],
   "activities": [
-    {"type": "created", "actor": "Lucy", "task": "20 tareas de Arturito agregadas", "time": "justo ahora"}
+    {
+      "type": "moved",
+      "actor": "junibox1987-star",
+      "task": "📈 Revisar métricas de leads",
+      "from": "backlog",
+      "to": "in_progress",
+      "time": "justo ahora"
+    },
+    {
+      "type": "created",
+      "actor": "Lucy",
+      "task": "20 tareas de Arturito agregadas",
+      "time": "justo ahora"
+    }
   ],
-  "lastUpdated": "2026-03-15T01:25:00Z"
+  "lastUpdated": "2026-03-15T07:27:34.579Z"
 }
