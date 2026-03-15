@@ -335,7 +335,8 @@
       "subtasks": [],
       "priority": "high",
       "comments": [],
-      "createdAt": "2026-02-28T17:49:14.954874Z"
+      "createdAt": "2026-02-28T17:49:14.954874Z",
+      "sortOrder": 0
     }
   ],
   "projects": [
@@ -426,5 +427,5 @@
       "time": "justo ahora"
     }
   ],
-  "lastUpdated": "2026-02-28T07:08:57.871Z"
+  "lastUpdated": "2026-03-15T07:08:21.543Z"
 }
