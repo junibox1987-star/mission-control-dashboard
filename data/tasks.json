@@ -154,7 +154,7 @@
       "title": "📍 Enviar ubicación",
       "description": "Google Maps y direcciones desde la propiedad a la playa, restaurantes.",
       "status": "backlog",
-      "project": "marketing",
+      "project": "operaciones",
       "tags": [
         "ubicacion",
         "marketing"
@@ -448,5 +448,5 @@
       "time": "justo ahora"
     }
   ],
-  "lastUpdated": "2026-03-15T07:34:08.762Z"
+  "lastUpdated": "2026-03-15T07:35:42.570Z"
 }
