@@ -266,7 +266,7 @@
       "id": "analisis_001",
       "title": "📈 Revisar métricas de leads",
       "description": "Tasa de conversión: cuántos leads se convierten en reservas.",
-      "status": "review",
+      "status": "backlog",
       "project": "analisis",
       "tags": [
         "metricas",
@@ -386,5 +386,5 @@
       "time": "justo ahora"
     }
   ],
-  "lastUpdated": "2026-03-15T07:27:42.897Z"
+  "lastUpdated": "2026-03-15T07:27:51.248Z"
 }
