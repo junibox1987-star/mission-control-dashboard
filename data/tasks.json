@@ -238,7 +238,7 @@
         }
       ],
       "createdAt": "2026-03-15T01:00:00Z",
-      "sortOrder": 3
+      "sortOrder": 1
     },
     {
       "id": "finanzas_002",
@@ -384,7 +384,7 @@
       "id": "reservas_pendientes",
       "title": "📝 Reservas confirmadas pendientes",
       "description": "0 reservas confirmadas actualmente.",
-      "status": "backlog",
+      "status": "in_progress",
       "project": "operaciones",
       "tags": [
         "reserva",
@@ -394,7 +394,7 @@
       "priority": "high",
       "comments": [],
       "createdAt": "2026-03-15T01:00:00Z",
-      "sortOrder": 8
+      "sortOrder": 0
     },
     {
       "id": "config_001",
@@ -433,7 +433,7 @@
         }
       ],
       "createdAt": "2026-03-15T02:05:00Z",
-      "sortOrder": 2
+      "sortOrder": 0
     },
     {
       "id": "task_1773564934819",
@@ -447,7 +447,7 @@
       "priority": "high",
       "createdAt": "2026-03-15T08:55:34.819Z",
       "status": "in_progress",
-      "sortOrder": 4,
+      "sortOrder": 2,
       "comments": [
         {
           "author": "Lucy (IA)",
@@ -496,6 +496,14 @@
     }
   ],
   "activities": [
+    {
+      "type": "moved",
+      "actor": "junibox1987-star",
+      "task": "📝 Reservas confirmadas pendientes",
+      "from": "backlog",
+      "to": "in_progress",
+      "time": "justo ahora"
+    },
     {
       "type": "moved",
       "actor": "junibox1987-star",
@@ -679,5 +687,5 @@
       "time": "justo ahora"
     }
   ],
-  "lastUpdated": "2026-03-15T19:01:09.273Z"
+  "lastUpdated": "2026-03-15T19:04:18.348Z"
 }
