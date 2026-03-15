@@ -421,7 +421,8 @@
       "subtasks": [],
       "priority": "high",
       "createdAt": "2026-03-15T08:55:34.819Z",
-      "status": "backlog"
+      "status": "in_progress",
+      "sortOrder": 2
     }
   ],
   "projects": [
@@ -463,6 +464,14 @@
     }
   ],
   "activities": [
+    {
+      "type": "moved",
+      "actor": "junibox1987-star",
+      "task": "incluir en el chat la variable del clima y llevar una narrativa de vendedor o profesional del turismo",
+      "from": "backlog",
+      "to": "in_progress",
+      "time": "justo ahora"
+    },
     {
       "type": "moved",
       "actor": "junibox1987-star",
@@ -566,5 +575,5 @@
       "time": "justo ahora"
     }
   ],
-  "lastUpdated": "2026-03-15T08:55:34.819Z"
+  "lastUpdated": "2026-03-15T08:55:53.260Z"
 }
