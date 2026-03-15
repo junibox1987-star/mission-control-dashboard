@@ -2,419 +2,278 @@
   "tasks": [
     {
       "id": "guide_onboarding",
-      "title": "\ud83d\ude80 Gu\u00eda de Inicio \u2014 Configura Mission Control",
-      "description": "\u00a1Bienvenido a Mission Control! Sigue estos pasos para completar tu configuraci\u00f3n. Trabaja en cada subtarea en orden.\n\n**Consejo:** Haz clic en una subtarea para ver instrucciones detalladas. M\u00e1rcate cuando termines.",
+      "title": "🚀 Guía de Inicio — Configura Mission Control",
+      "description": "¡Bienvenido a Mission Control! Sigue estos pasos para completar tu configuración. Trabaja en cada subtarea en orden.\n\n**Consejo:** Haz clic en una subtarea para ver instrucciones detalladas. Muéstrate cuando termines.",
       "status": "permanent",
       "project": "guides",
-      "tags": [
-        "guia",
-        "setup"
-      ],
+      "tags": ["guia", "setup"],
       "subtasks": [
-        {
-          "id": "sub_001",
-          "title": "1. Habilitar GitHub Pages: Settings \u2192 Pages \u2192 Branch: main \u2192 Save",
-          "done": true
-        },
-        {
-          "id": "sub_002",
-          "title": "2. Crear Token de GitHub: github.com/settings/tokens \u2192 Generate (classic) \u2192 Scope: repo",
-          "done": true
-        },
-        {
-          "id": "sub_003",
-          "title": "3. Conectar Dashboard: Abre tu URL de GitHub Pages \u2192 Clic 'Conectar GitHub' \u2192 Pega el token",
-          "done": true
-        },
-        {
-          "id": "sub_004",
-          "title": "4. Instalar Tailscale: brew install tailscale && tailscale up",
-          "done": true
-        },
-        {
-          "id": "sub_005",
-          "title": "5. Habilitar Funnel: tailscale funnel 18789 \u2192 Copia tu URL",
-          "done": true
-        },
-        {
-          "id": "sub_006",
-          "title": "6. Generar Webhook Token: openssl rand -hex 32 \u2192 Gu\u00e1rdalo",
-          "done": true
-        },
-        {
-          "id": "sub_007",
-          "title": "7. A\u00f1adir GitHub Webhook: Settings \u2192 Webhooks \u2192 Add \u2192 URL: https://TU-URL-TAILSCALE/hooks/github?token=TU-TOKEN",
-          "done": true
-        },
-        {
-          "id": "sub_008",
-          "title": "8. Prueba: Crea una tarea, mu\u00e9vela a En Progreso, verifica que la IA reciba la notificaci\u00f3n",
-          "done": true
-        }
+        {"id": "sub_001", "title": "1. Habilitar GitHub Pages: Settings → Pages → Branch: main → Save", "done": true},
+        {"id": "sub_002", "title": "2. Crear Token de GitHub: github.com/settings/tokens → Generate (classic) → Scope: repo", "done": true},
+        {"id": "sub_003", "title": "3. Conectar Dashboard: Abre tu URL de GitHub Pages → Clic 'Conectar GitHub' → Pega el token", "done": true},
+        {"id": "sub_004", "title": "4. Instalar Tailscale: brew install tailscale && tailscale up", "done": true},
+        {"id": "sub_005", "title": "5. Habilitar Funnel: tailscale funnel 18789 → Copia tu URL", "done": true},
+        {"id": "sub_006", "title": "6. Generar Webhook Token: openssl rand -hex 32 → Guárdalo", "done": true},
+        {"id": "sub_007", "title": "7. Añadir GitHub Webhook: Settings → Webhooks → Add → URL: https://TU-URL-TAILSCALE/hooks/github?token=TU-TOKEN", "done": true},
+        {"id": "sub_008", "title": "8. Prueba: Crea una tarea, muévela a En Progreso, verifica que la IA reciba la notificación", "done": true}
       ],
       "priority": "high",
-      "comments": [
-        {
-          "author": "Mission Control",
-          "text": "Una vez completados todos los pasos, puedes archivar esta gu\u00eda o mantenerla como referencia. \u00a1Tu configuraci\u00f3n estar\u00e1 lista cuando la IA responda a los cambios en las tareas!",
-          "timestamp": "2026-01-01T00:00:00Z"
-        }
-      ],
+      "comments": [{"author": "Mission Control", "text": "Una vez completados todos los pasos, puedes archivar esta guía o mantenerla como referencia. ¡Tu configuración estará lista cuando la IA responda a los cambios en las tareas!", "timestamp": "2026-01-01T00:00:00Z"}],
       "createdAt": "2026-01-01T00:00:00Z"
     },
     {
       "id": "guide_user",
-      "title": "\ud83d\udcd6 Gu\u00eda de Usuario \u2014 C\u00f3mo usar Mission Control",
-      "description": "Aprende a usar Mission Control de manera efectiva. \u00a1Tanto t\u00fa como la IA pueden gestionar tareas!\n\n**Dos formas de gestionar tareas:**\n\u2022 \ud83d\udc64 **T\u00fa** \u2014 Usas la interfaz web (arrastrar y soltar, botones, formularios)\n\u2022 \ud83e\udd16 **La IA** \u2014 Usa scripts o edita tasks.json directamente",
+      "title": "📖 Guía de Usuario — Cómo usar Mission Control",
+      "description": "Aprende a usar Mission Control de manera efectiva. ¡Tanto tú como la IA pueden gestionar tareas!\n\n**Dos formas de gestionar tareas:**\n• 👤 **Tú** — Usas la interfaz web (arrastrar y soltar, botones, formularios)\n• 🤖 **La IA** — Usa scripts o edita tasks.json directamente",
       "status": "permanent",
       "project": "guides",
-      "tags": [
-        "guia",
-        "ayuda"
-      ],
+      "tags": ["guia", "ayuda"],
       "subtasks": [
-        {
-          "id": "sub_001",
-          "title": "\u2014 EL TABLERO \u2014",
-          "done": false
-        },
-        {
-          "id": "sub_002",
-          "title": "Columnas: Permanente \u2192 Pendientes \u2192 En Progreso \u2192 Revisi\u00f3n \u2192 Terminado",
-          "done": false
-        },
-        {
-          "id": "sub_003",
-          "title": "Arrastrar y Soltar: Mueve las tareas entre columnas para cambiar su estado",
-          "done": false
-        },
-        {
-          "id": "sub_004",
-          "title": "Haz clic en la tarjeta de la tarea para abrir detalles y editar",
-          "done": false
-        },
-        {
-          "id": "sub_005",
-          "title": "\u2014 CREANDO TAREAS \u2014",
-          "done": false
-        },
-        {
-          "id": "sub_006",
-          "title": "\ud83d\udc64 T\u00fa: Haz clic en el bot\u00f3n '+' en la cabecera de cualquier columna",
-          "done": false
-        },
-        {
-          "id": "sub_007",
-          "title": "\ud83e\udd16 IA: Edita data/tasks.json o usa la terminal",
-          "done": false
-        },
-        {
-          "id": "sub_008",
-          "title": "\u2014 DETALLES DE LA TAREA \u2014",
-          "done": false
-        },
-        {
-          "id": "sub_009",
-          "title": "T\u00edtulo: Nombre corto y claro de la tarea",
-          "done": false
-        },
-        {
-          "id": "sub_010",
-          "title": "Descripci\u00f3n: Instrucciones detalladas (soporta Markdown)",
-          "done": false
-        },
-        {
-          "id": "sub_011",
-          "title": "Subtareas: Divide el trabajo en pasos m\u00e1s peque\u00f1os",
-          "done": false
-        },
-        {
-          "id": "sub_012",
-          "title": "Comentarios: A\u00f1ade notas, retroalimentaci\u00f3n o avances",
-          "done": false
-        },
-        {
-          "id": "sub_013",
-          "title": "Prioridad: Alta (\ud83d\udd34) / Media (\ud83d\udfe1) / Baja (\ud83d\udfe2)",
-          "done": false
-        },
-        {
-          "id": "sub_014",
-          "title": "Proyecto: Organiza tareas por categor\u00eda",
-          "done": false
-        }
+        {"id": "sub_001", "title": "— EL TABLERO —", "done": false},
+        {"id": "sub_002", "title": "Columnas: Permanente → Pendientes → En Progreso → Revisión → Terminado", "done": false},
+        {"id": "sub_003", "title": "Arrastrar y Soltar: Mueve las tareas entre columnas para cambiar su estado", "done": false}
       ],
       "priority": "medium",
-      "comments": [
-        {
-          "author": "Mission Control",
-          "text": "Esta gu\u00eda se queda en 'Permanente' para que siempre la tengas a la mano.",
-          "timestamp": "2026-01-01T00:00:00Z"
-        }
-      ],
+      "comments": [{"author": "Mission Control", "text": "Esta guía se queda en 'Permanente' para que siempre la tengas a la mano.", "timestamp": "2026-01-01T00:00:00Z"}],
       "createdAt": "2026-01-01T00:00:01Z"
     },
     {
-      "id": "task_example",
-      "title": "Tarea de Ejemplo \u2014 \u00a1B\u00f3rrala cuando quieras!",
-      "description": "Este es un ejemplo de c\u00f3mo se ve una tarea real. Si\u00e9ntete libre de editarla o borrarla.\n\n**Las buenas descripciones incluyen:**\n- Qu\u00e9 se necesita hacer\n- Por qu\u00e9 es importante\n- Cualquier requisito o limitaci\u00f3n\n- Enlaces a recursos relevantes",
-      "status": "done",
-      "project": "default",
-      "tags": [
-        "ejemplo"
-      ],
-      "subtasks": [
-        {
-          "id": "sub_001",
-          "title": "Primer paso de la tarea",
-          "done": false
-        },
-        {
-          "id": "sub_002",
-          "title": "Segundo paso",
-          "done": false
-        },
-        {
-          "id": "sub_003",
-          "title": "Paso final",
-          "done": false
-        }
-      ],
+      "id": "lead_001",
+      "title": "🎯 Atender nuevo lead",
+      "description": "Responder consultas de potenciales huéspedes que contactan por WhatsApp o Airbnb.",
+      "status": "backlog",
+      "project": "arturito_operaciones",
+      "tags": ["lead", "cliente", "alta"],
+      "subtasks": [],
+      "priority": "high",
+      "comments": [],
+      "createdAt": "2026-03-15T00:58:00Z"
+    },
+    {
+      "id": "lead_002",
+      "title": "🔥 Seguimiento a leads tibios",
+      "description": "Contactar leads que no han respondido en 24 horas.",
+      "status": "backlog",
+      "project": "arturito_operaciones",
+      "tags": ["lead", "seguimiento"],
+      "subtasks": [],
+      "priority": "high",
+      "comments": [],
+      "createdAt": "2026-03-15T00:58:00Z"
+    },
+    {
+      "id": "reserva_001",
+      "title": "💰 Confirmar reservación",
+      "description": "Proceso de cierre de venta: ofrecer descuento, dar datos bancarios, confirmar pago.",
+      "status": "backlog",
+      "project": "arturito_operaciones",
+      "tags": ["reserva", "venta"],
+      "subtasks": [],
+      "priority": "high",
+      "comments": [],
+      "createdAt": "2026-03-15T00:58:00Z"
+    },
+    {
+      "id": "reserva_002",
+      "title": "🧹 Coordinación de limpieza",
+      "description": "Programar limpieza post-checkout y verificar disponibilidad.",
+      "status": "backlog",
+      "project": "arturito_operaciones",
+      "tags": ["limpieza", "operacion"],
+      "subtasks": [],
+      "priority": "medium",
+      "comments": [],
+      "createdAt": "2026-03-15T00:58:00Z"
+    },
+    {
+      "id": "operacion_001",
+      "title": "📅 Verificar disponibilidad",
+      "description": "Consultar calendario Airbnb para confirmar fechas solicitadas por el cliente.",
+      "status": "backlog",
+      "project": "arturito_operaciones",
+      "tags": ["disponibilidad", "calendario"],
+      "subtasks": [],
+      "priority": "high",
+      "comments": [],
+      "createdAt": "2026-03-15T00:58:00Z"
+    },
+    {
+      "id": "operacion_002",
+      "title": "💵 Actualizar precios de temporada",
+      "description": "Ajustar tarifas según temporada alta/baja, eventos especiales.",
+      "status": "backlog",
+      "project": "arturito_operaciones",
+      "tags": ["precios", "temporada"],
+      "subtasks": [],
+      "priority": "medium",
+      "comments": [],
+      "createdAt": "2026-03-15T00:58:00Z"
+    },
+    {
+      "id": "marketing_001",
+      "title": "📸 Enviar fotos de la propiedad",
+      "description": "Galería personalizada al cliente según lo que pregunte (cocina, recámaras, patio).",
+      "status": "backlog",
+      "project": "arturito_marketing",
+      "tags": ["fotos", "marketing"],
+      "subtasks": [],
+      "priority": "high",
+      "comments": [],
+      "createdAt": "2026-03-15T00:58:00Z"
+    },
+    {
+      "id": "marketing_002",
+      "title": "📍 Enviar ubicación",
+      "description": "Google Maps y direcciones desde la propiedad a la playa, restaurantes,超市.",
+      "status": "backlog",
+      "project": "arturito_marketing",
+      "tags": ["ubicacion", "marketing"],
+      "subtasks": [],
+      "priority": "medium",
+      "comments": [],
+      "createdAt": "2026-03-15T00:58:00Z"
+    },
+    {
+      "id": "marketing_003",
+      "title": "⭐ Gestionar reseñas",
+      "description": "Responder a comentarios y reseñas en Airbnb.",
+      "status": "backlog",
+      "project": "arturito_marketing",
+      "tags": ["resenas", "reputacion"],
+      "subtasks": [],
+      "priority": "medium",
+      "comments": [],
+      "createdAt": "2026-03-15T00:58:00Z"
+    },
+    {
+      "id": "finanzas_001",
+      "title": "🧾 Generar recibo de pago",
+      "description": "Crear PDF con datos de la reservación: nombre, fechas, monto, datos bancarios.",
+      "status": "backlog",
+      "project": "arturito_finanzas",
+      "tags": ["recibo", "pago"],
+      "subtasks": [],
+      "priority": "high",
+      "comments": [],
+      "createdAt": "2026-03-15T00:58:00Z"
+    },
+    {
+      "id": "finanzas_002",
+      "title": "💳 Seguimiento de cobros",
+      "description": "Confirmar que el pago fue realizado y verificar en estado de cuenta.",
+      "status": "backlog",
+      "project": "arturito_finanzas",
+      "tags": ["cobro", "pago"],
+      "subtasks": [],
+      "priority": "high",
+      "comments": [],
+      "createdAt": "2026-03-15T00:58:00Z"
+    },
+    {
+      "id": "finanzas_003",
+      "title": "📊 Reporte mensual de ingresos",
+      "description": "Resumen de ingresos del mes: reservaciones, ocupación, promedio nightly.",
+      "status": "backlog",
+      "project": "arturito_finanzas",
+      "tags": ["reporte", "finanzas"],
+      "subtasks": [],
       "priority": "low",
       "comments": [],
-      "createdAt": "2026-01-01T00:00:02Z",
-      "sortOrder": 0,
-      "completedAt": "2026-02-28T07:08:57.871Z"
+      "createdAt": "2026-03-15T00:58:00Z"
     },
     {
-      "id": "task_1772260352146",
-      "title": "prueba de fuego para Lucy",
-      "description": "",
-      "project": "",
-      "tags": [
-        ""
-      ],
-      "subtasks": [],
-      "priority": "medium",
-      "createdAt": "2026-02-28T06:32:32.146Z",
-      "status": "done",
-      "sortOrder": 0,
-      "comments": [
-        {
-          "author": "Lucy (IA)",
-          "text": "\u00a1Misi\u00f3n recibida y completada, Arquitecto! \ud83d\ude80\n\nAqu\u00ed tienes la prueba de que el Nirvana Operativo funciona. T\u00fa solo moviste la tarjeta y yo hice el trabajo sucio por detr\u00e1s.",
-          "timestamp": "2026-02-28T06:38:13.940084Z"
-        }
-      ],
-      "completedAt": "2026-02-28T06:43:42.365Z"
-    },
-    {
-      "id": "arturito_flow_1",
-      "title": "Flujo 1: Contacto y Disponibilidad",
-      "description": "**Objetivo:** Arturito atiende al cliente y checa fechas.\n\n**Acciones autom\u00e1ticas:**\n1. Recibe mensaje de WhatsApp.\n2. Ejecuta `verificar_disponibilidad.py`.\n3. Responde si hay fechas libres y da precio base.",
-      "status": "permanent",
-      "project": "arturito",
-      "tags": [
-        "flujo",
-        "whatsapp"
-      ],
-      "subtasks": [
-        {
-          "id": "f1_1",
-          "title": "Script de calendario funcional",
-          "done": true
-        },
-        {
-          "id": "f1_2",
-          "title": "Conexi\u00f3n a WhatsApp activa",
-          "done": true
-        },
-        {
-          "id": "f1_3",
-          "title": "Prompt para responder con Emojis \ud83c\udf0a",
-          "done": true
-        }
-      ],
-      "priority": "high",
-      "comments": [
-        {
-          "author": "Lucy",
-          "text": "Este es el paso 1 del embudo. Ya est\u00e1 100% operativo.",
-          "timestamp": "2026-02-28T17:49:14.954651Z"
-        }
-      ],
-      "createdAt": "2026-02-28T17:49:14.954862Z"
-    },
-    {
-      "id": "arturito_flow_2",
-      "title": "Flujo 2: Env\u00edo de Fotos y Persuasi\u00f3n",
-      "description": "**Objetivo:** Enamorar al cliente mostrando la casa.\n\n**Acciones autom\u00e1ticas:**\n1. El cliente pregunta por la cocina o rec\u00e1maras.\n2. Arturito busca en el `mapa_fotos.json`.\n3. Ejecuta env\u00edo de fotos en HD con textos persuasivos (ahorro familiar).",
-      "status": "permanent",
-      "project": "arturito",
-      "tags": [
-        "flujo",
-        "ventas"
-      ],
-      "subtasks": [
-        {
-          "id": "f2_1",
-          "title": "Fotos descargadas (59 en HD)",
-          "done": true
-        },
-        {
-          "id": "f2_2",
-          "title": "Script de env\u00edo multimedia listo",
-          "done": true
-        },
-        {
-          "id": "f2_3",
-          "title": "Clasificar fotos en mapa_fotos.json",
-          "done": false
-        },
-        {
-          "id": "f2_4",
-          "title": "Afinar textos persuasivos por \u00e1rea",
-          "done": false
-        }
-      ],
-      "priority": "high",
-      "comments": [
-        {
-          "author": "Lucy",
-          "text": "Falta clasificar las fotos para que sepa exactamente cu\u00e1les enviar. Es nuestra siguiente misi\u00f3n.",
-          "timestamp": "2026-02-28T17:49:14.954867Z"
-        }
-      ],
-      "createdAt": "2026-02-28T17:49:14.954869Z"
-    },
-    {
-      "id": "arturito_flow_3",
-      "title": "Flujo 3: Cierre, Pago y Recibo PDF",
-      "description": "**Objetivo:** Cerrar la venta con 15% de descuento y enviar comprobante.\n\n**Acciones autom\u00e1ticas:**\n1. Arturito ofrece el descuento por transferencia.\n2. Env\u00eda datos bancarios.\n3. Al confirmar el pago, genera PDF de recibo.\n4. Env\u00eda PDF del Manual de la Casa.",
-      "status": "permanent",
-      "project": "arturito",
-      "tags": [
-        "flujo",
-        "cierres"
-      ],
-      "subtasks": [
-        {
-          "id": "f3_1",
-          "title": "Plantilla de Recibo PDF creada",
-          "done": false
-        },
-        {
-          "id": "f3_2",
-          "title": "Automatizar llenado del PDF con datos del cliente",
-          "done": false
-        },
-        {
-          "id": "f3_3",
-          "title": "Env\u00edo del Manual de Casa por WhatsApp",
-          "done": false
-        }
-      ],
-      "priority": "medium",
-      "comments": [],
-      "createdAt": "2026-02-28T17:49:14.954873Z"
-    },
-    {
-      "id": "arturito_improvement_1",
-      "title": "Mejora: Mapeo Inteligente de Fotos",
-      "description": "Necesito clasificar las 59 fotos en `mapa_fotos.json` para que Arturito sepa qu\u00e9 mandar. \n\n*Si me pasas esta tarjeta a En Progreso, yo empiezo a clasificar las fotos.*",
+      "id": "desarrollo_001",
+      "title": "🔧 Actualizar base de conocimientos",
+      "description": "Agregar nueva información de la propiedad, precios, amenidades.",
       "status": "backlog",
-      "project": "arturito",
-      "tags": [
-        "mejora",
-        "fotos"
-      ],
+      "project": "arturito_desarrollo",
+      "tags": ["knowledge", "base"],
+      "subtasks": [],
+      "priority": "medium",
+      "comments": [],
+      "createdAt": "2026-03-15T00:58:00Z"
+    },
+    {
+      "id": "desarrollo_002",
+      "title": "🖼️ Agregar fotos nuevas",
+      "description": "Actualizar galería con fotos de mejoras o nuevas áreas.",
+      "status": "backlog",
+      "project": "arturito_desarrollo",
+      "tags": ["fotos", "actualizacion"],
+      "subtasks": [],
+      "priority": "medium",
+      "comments": [],
+      "createdAt": "2026-03-15T00:58:00Z"
+    },
+    {
+      "id": "desarrollo_003",
+      "title": "🧪 Testing de funcionalidades",
+      "description": "Verificar que todos los scripts y flows estén funcionando correctamente.",
+      "status": "backlog",
+      "project": "arturito_desarrollo",
+      "tags": ["testing", "QA"],
+      "subtasks": [],
+      "priority": "medium",
+      "comments": [],
+      "createdAt": "2026-03-15T00:58:00Z"
+    },
+    {
+      "id": "analisis_001",
+      "title": "📈 Revisar métricas de leads",
+      "description": "Tasa de conversión: cuántos leads se convierten en reservas.",
+      "status": "backlog",
+      "project": "arturito_analisis",
+      "tags": ["metricas", "analisis"],
+      "subtasks": [],
+      "priority": "low",
+      "comments": [],
+      "createdAt": "2026-03-15T00:58:00Z"
+    },
+    {
+      "id": "analisis_002",
+      "title": "🏠 Análisis de ocupación",
+      "description": "Porcentaje de días ocupados vs disponibles en el mes.",
+      "status": "backlog",
+      "project": "arturito_analisis",
+      "tags": ["ocupacion", "analisis"],
+      "subtasks": [],
+      "priority": "low",
+      "comments": [],
+      "createdAt": "2026-03-15T00:58:00Z"
+    },
+    {
+      "id": "leads_activos",
+      "title": "📋 Leads activos actualmente",
+      "description": "4 leads nuevos sincronizados con Notion. Revisar seguimiento.",
+      "status": "backlog",
+      "project": "arturito_operaciones",
+      "tags": ["lead", "actual"],
       "subtasks": [],
       "priority": "high",
       "comments": [],
-      "createdAt": "2026-02-28T17:49:14.954874Z"
+      "createdAt": "2026-03-15T00:58:00Z"
+    },
+    {
+      "id": "reservas_pendientes",
+      "title": "📝 Reservas confirmadas pendientes",
+      "description": "0 reservas confirmadas actualmente. Waiting for bookings.",
+      "status": "backlog",
+      "project": "arturito_operaciones",
+      "tags": ["reserva", "pendiente"],
+      "subtasks": [],
+      "priority": "high",
+      "comments": [],
+      "createdAt": "2026-03-15T00:58:00Z"
     }
   ],
   "projects": [
-    {
-      "id": "guides",
-      "name": "Gu\u00edas",
-      "color": "#10b981",
-      "icon": "\ud83d\udcda"
-    },
-    {
-      "id": "default",
-      "name": "Mi Proyecto",
-      "color": "#3b82f6",
-      "icon": "\ud83d\udcc1"
-    },
-    {
-      "id": "arturito",
-      "name": "\ud83e\udd16 Flujo Arturito",
-      "color": "#f59e0b",
-      "icon": "\ud83c\udfd6\ufe0f"
-    }
+    {"id": "guides", "name": "Guías", "color": "#10b981", "icon": "📚"},
+    {"id": "arturito_operaciones", "name": "🎯 Operaciones Arturito", "color": "#ef4444", "icon": "🎯"},
+    {"id": "arturito_marketing", "name": "📣 Marketing", "color": "#3b82f6", "icon": "📣"},
+    {"id": "arturito_finanzas", "name": "💰 Finanzas", "color": "#10b981", "icon": "💰"},
+    {"id": "arturito_desarrollo", "name": "🔧 Desarrollo", "color": "#f59e0b", "icon": "🔧"},
+    {"id": "arturito_analisis", "name": "📊 Análisis", "color": "#8b5cf6", "icon": "📊"}
   ],
-  "activities": [
-    {
-      "type": "moved",
-      "actor": "junibox1987-star",
-      "task": "Tarea de Ejemplo \u2014 \u00a1B\u00f3rrala cuando quieras!",
-      "from": "in_progress",
-      "to": "review",
-      "time": "justo ahora"
-    },
-    {
-      "type": "moved",
-      "actor": "junibox1987-star",
-      "task": "Tarea de Ejemplo \u2014 \u00a1B\u00f3rrala cuando quieras!",
-      "from": "scheduled",
-      "to": "in_progress",
-      "time": "justo ahora"
-    },
-    {
-      "type": "moved",
-      "actor": "junibox1987-star",
-      "task": "Tarea de Ejemplo \u2014 \u00a1B\u00f3rrala cuando quieras!",
-      "from": "done",
-      "to": "scheduled",
-      "time": "justo ahora"
-    },
-    {
-      "type": "moved",
-      "actor": "junibox1987-star",
-      "task": "Tarea de Ejemplo \u2014 \u00a1B\u00f3rrala cuando quieras!",
-      "from": "backlog",
-      "to": "done",
-      "time": "justo ahora"
-    },
-    {
-      "type": "moved",
-      "actor": "junibox1987-star",
-      "task": "prueba de fuego para Lucy",
-      "from": "review",
-      "to": "done",
-      "time": "justo ahora"
-    },
-    {
-      "type": "moved",
-      "actor": "junibox1987-star",
-      "task": "prueba de fuego para Lucy",
-      "from": "backlog",
-      "to": "in_progress",
-      "time": "justo ahora"
-    },
-    {
-      "type": "created",
-      "actor": "Mission Control",
-      "task": "Gu\u00eda de Inicio",
-      "time": "justo ahora"
-    },
-    {
-      "type": "created",
-      "actor": "Mission Control",
-      "task": "Gu\u00eda de Usuario",
-      "time": "justo ahora"
-    }
-  ],
-  "lastUpdated": "2026-02-28T07:08:57.871Z"
+  "activities": [],
+  "lastUpdated": "2026-03-15T00:58:00Z"
 }
