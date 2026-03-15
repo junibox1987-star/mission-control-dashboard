@@ -225,7 +225,7 @@
         }
       ],
       "createdAt": "2026-03-15T01:00:00Z",
-      "sortOrder": 1
+      "sortOrder": 0
     },
     {
       "id": "finanzas_002",
@@ -427,8 +427,8 @@
       "subtasks": [],
       "priority": "high",
       "createdAt": "2026-03-15T08:55:34.819Z",
-      "status": "review",
-      "sortOrder": 0
+      "status": "in_progress",
+      "sortOrder": 1
     }
   ],
   "projects": [
@@ -470,6 +470,14 @@
     }
   ],
   "activities": [
+    {
+      "type": "moved",
+      "actor": "junibox1987-star",
+      "task": "incluir en el chat la variable del clima y llevar una narrativa de vendedor o profesional del turismo",
+      "from": "review",
+      "to": "in_progress",
+      "time": "justo ahora"
+    },
     {
       "type": "moved",
       "actor": "junibox1987-star",
@@ -589,5 +597,5 @@
       "time": "justo ahora"
     }
   ],
-  "lastUpdated": "2026-03-15T09:07:00.474Z"
+  "lastUpdated": "2026-03-15T09:07:03.958Z"
 }
