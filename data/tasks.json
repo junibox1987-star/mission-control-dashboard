@@ -225,7 +225,7 @@
         }
       ],
       "createdAt": "2026-03-15T01:00:00Z",
-      "sortOrder": 0
+      "sortOrder": 1
     },
     {
       "id": "finanzas_002",
@@ -381,7 +381,7 @@
       "id": "config_001",
       "title": "🔧 Configurar Tailscale para notificaciones auto",
       "description": "Habilitar notificaciones automáticas en Mission Control.\n\nOpciones:\n1. Arreglar Tailscale\n2. Configurar GitHub Webhooks\n\nPriority: Alta para automatización total.\n\ncontinuar con webhooks",
-      "status": "review",
+      "status": "in_progress",
       "project": "guides",
       "tags": [
         "tailscale",
@@ -428,7 +428,7 @@
       "priority": "high",
       "createdAt": "2026-03-15T08:55:34.819Z",
       "status": "in_progress",
-      "sortOrder": 1,
+      "sortOrder": 2,
       "comments": [
         {
           "author": "Lucy (IA)",
@@ -477,6 +477,14 @@
     }
   ],
   "activities": [
+    {
+      "type": "moved",
+      "actor": "junibox1987-star",
+      "task": "🔧 Configurar Tailscale para notificaciones auto",
+      "from": "review",
+      "to": "in_progress",
+      "time": "justo ahora"
+    },
     {
       "type": "moved",
       "actor": "junibox1987-star",
@@ -612,5 +620,5 @@
       "time": "justo ahora"
     }
   ],
-  "lastUpdated": "2026-03-15T09:09:15.312Z"
+  "lastUpdated": "2026-03-15T09:09:22.665Z"
 }
