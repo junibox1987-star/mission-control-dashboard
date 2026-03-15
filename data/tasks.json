@@ -409,6 +409,19 @@
       "comments": [],
       "createdAt": "2026-03-15T02:05:00Z",
       "sortOrder": 0
+    },
+    {
+      "id": "task_1773564934819",
+      "title": "incluir en el chat la variable del clima y llevar una narrativa de vendedor o profesional del turismo",
+      "description": "incluir en el chat la variable del clima y llevar una narrativa de vendedor o profesional del turismo",
+      "project": "marketing",
+      "tags": [
+        "profesional turismo"
+      ],
+      "subtasks": [],
+      "priority": "high",
+      "createdAt": "2026-03-15T08:55:34.819Z",
+      "status": "backlog"
     }
   ],
   "projects": [
@@ -553,5 +566,5 @@
       "time": "justo ahora"
     }
   ],
-  "lastUpdated": "2026-03-15T08:53:41.136Z"
+  "lastUpdated": "2026-03-15T08:55:34.819Z"
 }
