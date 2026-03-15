@@ -196,7 +196,7 @@
     {
       "id": "finanzas_001",
       "title": "🧾 Generar recibo de pago",
-      "description": "Crear PDF con datos de la reservación: nombre, fechas, monto, datos bancarios.",
+      "description": "Crear PDF con datos de la reservación: nombre, fechas, monto, datos bancarios. poner logo de la alojamiento hospedaje castillo",
       "status": "backlog",
       "project": "finanzas",
       "tags": [
@@ -503,5 +503,5 @@
       "time": "justo ahora"
     }
   ],
-  "lastUpdated": "2026-03-15T08:08:59.777Z"
+  "lastUpdated": "2026-03-15T08:43:42.192Z"
 }
