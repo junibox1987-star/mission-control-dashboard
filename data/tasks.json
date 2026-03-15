@@ -57,7 +57,7 @@
       "id": "lead_002",
       "title": "🔥 Seguimiento a leads tibios",
       "description": "Contactar leads que no han respondido en 24 horas.",
-      "status": "backlog",
+      "status": "in_progress",
       "project": "operaciones",
       "tags": [
         "lead",
@@ -67,7 +67,7 @@
       "priority": "high",
       "comments": [],
       "createdAt": "2026-03-15T01:00:00Z",
-      "sortOrder": 1
+      "sortOrder": 0
     },
     {
       "id": "reserva_001",
@@ -487,6 +487,14 @@
     {
       "type": "moved",
       "actor": "junibox1987-star",
+      "task": "🔥 Seguimiento a leads tibios",
+      "from": "backlog",
+      "to": "in_progress",
+      "time": "justo ahora"
+    },
+    {
+      "type": "moved",
+      "actor": "junibox1987-star",
       "task": "📊 Reporte mensual de ingresos",
       "from": "review",
       "to": "in_progress",
@@ -651,5 +659,5 @@
       "time": "justo ahora"
     }
   ],
-  "lastUpdated": "2026-03-15T09:18:34.262Z"
+  "lastUpdated": "2026-03-15T09:19:13.857Z"
 }
