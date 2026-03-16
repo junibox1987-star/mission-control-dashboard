@@ -4,7 +4,7 @@
       "id": "guide_onboarding",
       "title": "🚀 Guía de Inicio — Configura Mission Control",
       "description": "¡Bienvenido a Mission Control! Sigue estos pasos para completar tu configuración.",
-      "status": "permanent",
+      "status": "in_progress",
       "project": "guides",
       "tags": [
         "guia",
@@ -35,7 +35,8 @@
           "timestamp": "2026-03-15T01:00:00Z"
         }
       ],
-      "createdAt": "2026-01-01T00:00:00Z"
+      "createdAt": "2026-01-01T00:00:00Z",
+      "sortOrder": 2
     },
     {
       "id": "lead_001",
@@ -238,7 +239,7 @@
         }
       ],
       "createdAt": "2026-03-15T01:00:00Z",
-      "sortOrder": 1
+      "sortOrder": 3
     },
     {
       "id": "finanzas_002",
@@ -433,7 +434,7 @@
         }
       ],
       "createdAt": "2026-03-15T02:05:00Z",
-      "sortOrder": 0
+      "sortOrder": 1
     },
     {
       "id": "task_1773564934819",
@@ -447,7 +448,7 @@
       "priority": "high",
       "createdAt": "2026-03-15T08:55:34.819Z",
       "status": "in_progress",
-      "sortOrder": 2,
+      "sortOrder": 4,
       "comments": [
         {
           "author": "Lucy (IA)",
@@ -496,6 +497,14 @@
     }
   ],
   "activities": [
+    {
+      "type": "moved",
+      "actor": "junibox1987-star",
+      "task": "🚀 Guía de Inicio — Configura Mission Control",
+      "from": "permanent",
+      "to": "in_progress",
+      "time": "justo ahora"
+    },
     {
       "type": "moved",
       "actor": "junibox1987-star",
@@ -687,5 +696,5 @@
       "time": "justo ahora"
     }
   ],
-  "lastUpdated": "2026-03-15T19:04:18.348Z"
+  "lastUpdated": "2026-03-16T05:57:51.036Z"
 }
