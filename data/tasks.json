@@ -521,6 +521,19 @@
           "timestamp": "2026-03-23T00:38:24.667964Z"
         }
       ]
+    },
+    {
+      "id": "task_1774248260362",
+      "title": "checa el token del drive para que puedas entrar a el drive de abrahamcastilloruiz@gmail.com",
+      "description": "checa el token del drive para que puedas entrar a el drive de abrahamcastilloruiz@gmail.com",
+      "project": "operaciones",
+      "tags": [
+        "operaciones"
+      ],
+      "subtasks": [],
+      "priority": "high",
+      "createdAt": "2026-03-23T06:44:20.362Z",
+      "status": "backlog"
     }
   ],
   "projects": [
@@ -817,5 +830,5 @@
       "time": "justo ahora"
     }
   ],
-  "lastUpdated": "2026-03-23T06:42:21.608Z"
+  "lastUpdated": "2026-03-23T06:44:20.362Z"
 }
