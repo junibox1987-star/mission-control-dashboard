@@ -541,8 +541,8 @@
       "subtasks": [],
       "priority": "high",
       "createdAt": "2026-03-23T06:44:20.362Z",
-      "status": "in_progress",
-      "sortOrder": 0
+      "status": "review",
+      "sortOrder": 1
     }
   ],
   "projects": [
@@ -584,6 +584,14 @@
     }
   ],
   "activities": [
+    {
+      "type": "moved",
+      "actor": "junibox1987-star",
+      "task": "checa el token del drive para que puedas entrar a el drive de abrahamcastilloruiz@gmail.com",
+      "from": "in_progress",
+      "to": "review",
+      "time": "justo ahora"
+    },
     {
       "type": "moved",
       "actor": "junibox1987-star",
@@ -911,5 +919,5 @@
       "time": "justo ahora"
     }
   ],
-  "lastUpdated": "2026-03-23T06:50:44.598Z"
+  "lastUpdated": "2026-03-23T06:50:51.467Z"
 }
