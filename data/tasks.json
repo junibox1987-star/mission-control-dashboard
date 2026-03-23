@@ -4,7 +4,7 @@
       "id": "test_lucy_001",
       "title": "✅ Test de Sincronización GitHub — Lucy",
       "description": "Tarea de prueba creada por Lucy para verificar el polling de Mission Control.",
-      "status": "in_progress",
+      "status": "review",
       "project": "test",
       "tags": [
         "test",
@@ -12,9 +12,16 @@
       ],
       "subtasks": [],
       "priority": "high",
-      "comments": [],
+      "comments": [
+        {
+          "author": "Lucy",
+          "text": "✅ Tarea ejecutada — archivo test_github.md creado en repositorio",
+          "timestamp": "2026-03-23T00:35:25.002139Z"
+        }
+      ],
       "createdAt": "2026-03-23T06:30:00Z",
-      "sortOrder": 0
+      "sortOrder": 0,
+      "completedAt": "2026-03-23T00:35:25.002112Z"
     },
     {
       "id": "guide_onboarding",
