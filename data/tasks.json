@@ -145,7 +145,7 @@
       "id": "reserva_002",
       "title": "🧹 Coordinación de limpieza",
       "description": "Programar limpieza post-checkout y verificar disponibilidad.",
-      "status": "backlog",
+      "status": "in_progress",
       "project": "operaciones",
       "tags": [
         "limpieza",
@@ -303,7 +303,7 @@
       "priority": "high",
       "comments": [],
       "createdAt": "2026-03-15T01:00:00Z",
-      "sortOrder": 0
+      "sortOrder": 1
     },
     {
       "id": "finanzas_003",
@@ -596,6 +596,14 @@
     }
   ],
   "activities": [
+    {
+      "type": "moved",
+      "actor": "junibox1987-star",
+      "task": "🧹 Coordinación de limpieza",
+      "from": "backlog",
+      "to": "in_progress",
+      "time": "justo ahora"
+    },
     {
       "type": "moved",
       "actor": "junibox1987-star",
@@ -947,5 +955,5 @@
       "time": "justo ahora"
     }
   ],
-  "lastUpdated": "2026-03-23T08:57:14.823Z"
+  "lastUpdated": "2026-03-23T08:57:18.058Z"
 }
