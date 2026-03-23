@@ -507,8 +507,8 @@
       "subtasks": [],
       "priority": "high",
       "createdAt": "2026-03-15T08:55:34.819Z",
-      "status": "review",
-      "sortOrder": 4,
+      "status": "done",
+      "sortOrder": 0,
       "comments": [
         {
           "author": "Lucy (IA)",
@@ -520,7 +520,8 @@
           "text": "✅ Configurado en Heartbeat. Cada 60 min se revisa clima local y se incluye en respuestas cuando relevante.",
           "timestamp": "2026-03-23T00:38:24.667964Z"
         }
-      ]
+      ],
+      "completedAt": "2026-03-23T06:49:25.924Z"
     },
     {
       "id": "task_1774248260362",
@@ -576,6 +577,14 @@
     }
   ],
   "activities": [
+    {
+      "type": "moved",
+      "actor": "junibox1987-star",
+      "task": "incluir en el chat la variable del clima y llevar una narrativa de vendedor o profesional del turismo",
+      "from": "review",
+      "to": "done",
+      "time": "justo ahora"
+    },
     {
       "type": "moved",
       "actor": "junibox1987-star",
@@ -839,5 +848,5 @@
       "time": "justo ahora"
     }
   ],
-  "lastUpdated": "2026-03-23T06:44:27.865Z"
+  "lastUpdated": "2026-03-23T06:49:25.924Z"
 }
