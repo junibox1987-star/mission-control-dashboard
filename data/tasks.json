@@ -331,7 +331,7 @@
       "id": "analisis_001",
       "title": "📈 Revisar métricas de leads",
       "description": "Tasa de conversión: cuántos leads se convierten en reservas.",
-      "status": "backlog",
+      "status": "in_progress",
       "project": "analisis",
       "tags": [
         "metricas",
@@ -497,6 +497,14 @@
     }
   ],
   "activities": [
+    {
+      "type": "moved",
+      "actor": "junibox1987-star",
+      "task": "📈 Revisar métricas de leads",
+      "from": "backlog",
+      "to": "in_progress",
+      "time": "justo ahora"
+    },
     {
       "type": "moved",
       "actor": "junibox1987-star",
@@ -712,5 +720,5 @@
       "time": "justo ahora"
     }
   ],
-  "lastUpdated": "2026-03-23T05:58:44.062Z"
+  "lastUpdated": "2026-03-23T06:02:11.643Z"
 }
