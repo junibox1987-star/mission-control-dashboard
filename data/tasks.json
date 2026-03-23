@@ -293,7 +293,7 @@
       "id": "finanzas_002",
       "title": "💳 Seguimiento de cobros",
       "description": "Confirmar que el pago fue realizado y verificar en estado de cuenta.",
-      "status": "backlog",
+      "status": "in_progress",
       "project": "finanzas",
       "tags": [
         "cobro",
@@ -303,7 +303,7 @@
       "priority": "high",
       "comments": [],
       "createdAt": "2026-03-15T01:00:00Z",
-      "sortOrder": 6
+      "sortOrder": 0
     },
     {
       "id": "finanzas_003",
@@ -379,7 +379,7 @@
       "priority": "medium",
       "comments": [],
       "createdAt": "2026-03-15T01:00:00Z",
-      "sortOrder": 0
+      "sortOrder": 1
     },
     {
       "id": "analisis_001",
@@ -596,6 +596,14 @@
     }
   ],
   "activities": [
+    {
+      "type": "moved",
+      "actor": "junibox1987-star",
+      "task": "💳 Seguimiento de cobros",
+      "from": "backlog",
+      "to": "in_progress",
+      "time": "justo ahora"
+    },
     {
       "type": "moved",
       "actor": "junibox1987-star",
@@ -939,5 +947,5 @@
       "time": "justo ahora"
     }
   ],
-  "lastUpdated": "2026-03-23T08:57:06.236Z"
+  "lastUpdated": "2026-03-23T08:57:14.823Z"
 }
