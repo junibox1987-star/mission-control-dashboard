@@ -70,7 +70,7 @@
       "id": "lead_001",
       "title": "🎯 Atender nuevo lead",
       "description": "Responder consultas de potenciales huéspedes que contactan por WhatsApp o Airbnb.",
-      "status": "review",
+      "status": "done",
       "project": "operaciones",
       "tags": [
         "lead",
@@ -86,7 +86,8 @@
         }
       ],
       "createdAt": "2026-03-15T01:00:00Z",
-      "sortOrder": 0
+      "sortOrder": 0,
+      "completedAt": "2026-03-23T06:49:41.062Z"
     },
     {
       "id": "lead_002",
@@ -580,6 +581,14 @@
     {
       "type": "moved",
       "actor": "junibox1987-star",
+      "task": "🎯 Atender nuevo lead",
+      "from": "review",
+      "to": "done",
+      "time": "justo ahora"
+    },
+    {
+      "type": "moved",
+      "actor": "junibox1987-star",
       "task": "incluir en el chat la variable del clima y llevar una narrativa de vendedor o profesional del turismo",
       "from": "review",
       "to": "done",
@@ -848,5 +857,5 @@
       "time": "justo ahora"
     }
   ],
-  "lastUpdated": "2026-03-23T06:49:25.924Z"
+  "lastUpdated": "2026-03-23T06:49:41.062Z"
 }
