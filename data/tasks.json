@@ -541,8 +541,15 @@
       "subtasks": [],
       "priority": "high",
       "createdAt": "2026-03-23T06:44:20.362Z",
-      "status": "in_progress",
-      "sortOrder": 0
+      "status": "review",
+      "sortOrder": 0,
+      "comments": [
+        {
+          "author": "Lucy",
+          "text": "⚠️ No pude completar. Victor necesita ejecutar manualmente: gog auth add abrahamcastilloruiz@gmail.com --services drive. Requiere autorización en navegador.",
+          "timestamp": "2026-03-23T02:32:24.828655Z"
+        }
+      ]
     }
   ],
   "projects": [
