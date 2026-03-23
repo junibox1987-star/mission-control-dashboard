@@ -379,7 +379,7 @@
       "priority": "medium",
       "comments": [],
       "createdAt": "2026-03-15T01:00:00Z",
-      "sortOrder": 1
+      "sortOrder": 0
     },
     {
       "id": "analisis_001",
@@ -541,8 +541,8 @@
       "subtasks": [],
       "priority": "high",
       "createdAt": "2026-03-23T06:44:20.362Z",
-      "status": "review",
-      "sortOrder": 1
+      "status": "in_progress",
+      "sortOrder": 0
     }
   ],
   "projects": [
@@ -584,6 +584,14 @@
     }
   ],
   "activities": [
+    {
+      "type": "moved",
+      "actor": "junibox1987-star",
+      "task": "checa el token del drive para que puedas entrar a el drive de abrahamcastilloruiz@gmail.com",
+      "from": "review",
+      "to": "in_progress",
+      "time": "justo ahora"
+    },
     {
       "type": "moved",
       "actor": "junibox1987-star",
@@ -919,5 +927,5 @@
       "time": "justo ahora"
     }
   ],
-  "lastUpdated": "2026-03-23T06:50:51.467Z"
+  "lastUpdated": "2026-03-23T06:50:53.600Z"
 }
