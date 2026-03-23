@@ -115,7 +115,7 @@
       "id": "reserva_001",
       "title": "💰 Confirmar reservación",
       "description": "Proceso de cierre de venta: ofrecer descuento, dar datos bancarios, confirmar pago.",
-      "status": "review",
+      "status": "done",
       "project": "operaciones",
       "tags": [
         "reserva",
@@ -136,7 +136,8 @@
         }
       ],
       "createdAt": "2026-03-15T01:00:00Z",
-      "sortOrder": 1
+      "sortOrder": 3,
+      "completedAt": "2026-03-23T06:50:35.662Z"
     },
     {
       "id": "reserva_002",
@@ -496,7 +497,7 @@
         }
       ],
       "createdAt": "2026-03-15T02:05:00Z",
-      "sortOrder": 0,
+      "sortOrder": 1,
       "completedAt": "2026-03-23T06:50:07.920Z"
     },
     {
@@ -511,7 +512,7 @@
       "priority": "high",
       "createdAt": "2026-03-15T08:55:34.819Z",
       "status": "done",
-      "sortOrder": 1,
+      "sortOrder": 2,
       "comments": [
         {
           "author": "Lucy (IA)",
@@ -580,6 +581,14 @@
     }
   ],
   "activities": [
+    {
+      "type": "moved",
+      "actor": "junibox1987-star",
+      "task": "💰 Confirmar reservación",
+      "from": "review",
+      "to": "done",
+      "time": "justo ahora"
+    },
     {
       "type": "moved",
       "actor": "junibox1987-star",
@@ -875,5 +884,5 @@
       "time": "justo ahora"
     }
   ],
-  "lastUpdated": "2026-03-23T06:50:07.920Z"
+  "lastUpdated": "2026-03-23T06:50:35.662Z"
 }
