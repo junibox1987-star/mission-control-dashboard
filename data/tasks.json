@@ -347,7 +347,7 @@
       "priority": "medium",
       "comments": [],
       "createdAt": "2026-03-15T01:00:00Z",
-      "sortOrder": 0
+      "sortOrder": 1
     },
     {
       "id": "desarrollo_002",
@@ -363,7 +363,7 @@
       "priority": "medium",
       "comments": [],
       "createdAt": "2026-03-15T01:00:00Z",
-      "sortOrder": 1
+      "sortOrder": 2
     },
     {
       "id": "desarrollo_003",
@@ -379,7 +379,7 @@
       "priority": "medium",
       "comments": [],
       "createdAt": "2026-03-15T01:00:00Z",
-      "sortOrder": 2
+      "sortOrder": 3
     },
     {
       "id": "analisis_001",
@@ -407,7 +407,7 @@
       "id": "analisis_002",
       "title": "🏠 Análisis de ocupación",
       "description": "Porcentaje de días ocupados vs disponibles en el mes.",
-      "status": "backlog",
+      "status": "in_progress",
       "project": "analisis",
       "tags": [
         "ocupacion",
@@ -417,7 +417,7 @@
       "priority": "low",
       "comments": [],
       "createdAt": "2026-03-15T01:00:00Z",
-      "sortOrder": 2
+      "sortOrder": 1
     },
     {
       "id": "leads_activos",
@@ -597,6 +597,14 @@
     }
   ],
   "activities": [
+    {
+      "type": "moved",
+      "actor": "junibox1987-star",
+      "task": "🏠 Análisis de ocupación",
+      "from": "backlog",
+      "to": "in_progress",
+      "time": "justo ahora"
+    },
     {
       "type": "moved",
       "actor": "junibox1987-star",
@@ -964,5 +972,5 @@
       "time": "justo ahora"
     }
   ],
-  "lastUpdated": "2026-06-19T19:37:12.611Z"
+  "lastUpdated": "2026-06-19T19:37:17.080Z"
 }
